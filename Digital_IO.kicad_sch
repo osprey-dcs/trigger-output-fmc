@@ -1,0 +1,4309 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1edad456-79f6-42ce-9fec-c03a07690b49")
+	(paper "A4")
+	(title_block
+		(title "FMC Template")
+		(date "2026-01-26")
+		(rev "1.0")
+		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 167.64 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0610a48d-52f0-4ee8-ae64-84981aa3fcc9")
+	)
+	(junction
+		(at 167.64 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08c94c17-2b48-4bff-b969-4c2b6ce0670c")
+	)
+	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33e516c4-7030-4524-bdbe-10f598d71c41")
+	)
+	(junction
+		(at 255.27 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c8f1c8b-9faa-4472-a93a-110c6178e01f")
+	)
+	(junction
+		(at 167.64 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674aecc4-fa68-4b9a-98ba-22d7d26784b2")
+	)
+	(junction
+		(at 255.27 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "823a8c07-f3e7-4e69-ad41-982bd65e2d6a")
+	)
+	(junction
+		(at 255.27 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8897ba65-2e17-4469-8680-78cc1fff6d3d")
+	)
+	(junction
+		(at 255.27 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba8eade-2921-47bd-b36f-8b63e59313b1")
+	)
+	(junction
+		(at 167.64 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fd8adbb-43aa-494e-a081-c5e35a468064")
+	)
+	(junction
+		(at 255.27 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97d962f1-9343-4986-bdd2-e35b79aa353b")
+	)
+	(junction
+		(at 255.27 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7ff054e-3185-4731-a4aa-c0a781e2d2d3")
+	)
+	(junction
+		(at 167.64 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af5eeea8-9d11-4d49-9d79-7aa5c5706c2f")
+	)
+	(junction
+		(at 167.64 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04f06ee-2534-4918-bcdb-b8d91e8eb182")
+	)
+	(junction
+		(at 255.27 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9d9c8ea-1e4d-4b87-ad89-ca3a3b42a994")
+	)
+	(bus_entry
+		(at 57.15 92.71)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b98d26-67b4-4db2-a06a-23496717ba91")
+	)
+	(bus_entry
+		(at 57.15 95.25)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b730e28-cd01-406e-901e-c822b859ac66")
+	)
+	(bus_entry
+		(at 57.15 100.33)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf2ffa0-7d45-4be3-8527-0a3ec381a2b4")
+	)
+	(bus_entry
+		(at 57.15 97.79)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9c186d-547c-4a3c-94ee-aa7b4ceb6176")
+	)
+	(bus_entry
+		(at 57.15 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a03f3d-31f1-468b-a3b6-eac4d48eb685")
+	)
+	(bus_entry
+		(at 57.15 67.31)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28df5e9b-a451-4b43-80d8-f1ae2fbf115f")
+	)
+	(bus_entry
+		(at 57.15 72.39)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9c3c4c-ea96-473f-bd0a-26b630868304")
+	)
+	(bus_entry
+		(at 57.15 80.01)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f418cee-9054-49a1-ad48-104f72c73c96")
+	)
+	(bus_entry
+		(at 57.15 87.63)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4abaec-8d83-45b8-b9bc-bc89b058165e")
+	)
+	(bus_entry
+		(at 57.15 74.93)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7150e2b7-3ff3-4452-9403-3bff3af54540")
+	)
+	(bus_entry
+		(at 57.15 62.23)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df378a0-52f9-438f-a09d-237fc517c2c5")
+	)
+	(bus_entry
+		(at 57.15 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99757801-4b2e-481a-bc57-7bbd211e0269")
+	)
+	(bus_entry
+		(at 57.15 64.77)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af82aab5-f867-4260-b6e7-b0fb7db254a6")
+	)
+	(bus_entry
+		(at 57.15 85.09)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbce8fca-0a8b-4676-b489-5ce6f5bb6d39")
+	)
+	(bus_entry
+		(at 57.15 69.85)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d516c72e-3a9b-4387-9439-09ba2ab3a085")
+	)
+	(bus_entry
+		(at 57.15 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95d77bc-2d57-44f4-943f-b0df64fa8020")
+	)
+	(wire
+		(pts
+			(xy 255.27 90.17) (xy 255.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e4ce21-9b67-402d-b807-27682a4e0805")
+	)
+	(wire
+		(pts
+			(xy 255.27 100.33) (xy 242.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0461bb2e-8bfa-4c06-b2d1-e61b5a19e091")
+	)
+	(wire
+		(pts
+			(xy 255.27 130.81) (xy 242.57 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1331db6f-663b-4757-b64e-ae039d12812c")
+	)
+	(bus
+		(pts
+			(xy 57.15 69.85) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16030fd3-4cd4-4c7d-869e-7e988d921640")
+	)
+	(bus
+		(pts
+			(xy 57.15 72.39) (xy 57.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196aa353-5a5a-4f3f-af4c-aa50aeb7660c")
+	)
+	(wire
+		(pts
+			(xy 86.36 82.55) (xy 59.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6f9e81-9ce7-4b5b-b793-2914dd3bb974")
+	)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c55f26d-8c12-4268-b422-4df46905614a")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2089d76e-e924-48e6-8593-c0d20cd87bbc")
+	)
+	(wire
+		(pts
+			(xy 149.86 59.69) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233f635a-424e-40eb-bc29-a99da7ca7ffc")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25157c7b-a242-4da4-885a-824e66e1494a")
+	)
+	(wire
+		(pts
+			(xy 255.27 90.17) (xy 242.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2680df35-6e0b-4e03-8143-867bf559f307")
+	)
+	(wire
+		(pts
+			(xy 149.86 110.49) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c24754b-564a-459b-aae4-57c29ef7fabc")
+	)
+	(bus
+		(pts
+			(xy 57.15 77.47) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4d57d9-c597-4da4-851b-9a275336d2f4")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32082972-f96c-43ec-b6b7-d37a2913c4f0")
+	)
+	(wire
+		(pts
+			(xy 86.36 69.85) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f12b04-572b-48bb-98f2-f227341c3c93")
+	)
+	(bus
+		(pts
+			(xy 57.15 80.01) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3824b4d5-4458-47ec-934f-a05fa6c45a4f")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3961e8e1-6c8b-4531-aab1-83ae71799664")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 227.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a07a5b5-1081-4e4f-a624-1d6cae1d6026")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2280bd-9d54-440a-9d9c-4a65da5a5e65")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40756056-2808-4572-9d58-1d4eec71e93e")
+	)
+	(wire
+		(pts
+			(xy 255.27 110.49) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c28fb7-3c1d-41c1-b6c0-49e598e7129c")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5514420b-70c0-4b61-a99d-d63d438c2d07")
+	)
+	(wire
+		(pts
+			(xy 255.27 120.65) (xy 255.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556d10fa-4710-4080-8579-508ed25ddcfc")
+	)
+	(wire
+		(pts
+			(xy 86.36 59.69) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b5f15b-3518-46f5-99f4-321f1984999a")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c415298-e302-482a-98e4-367beb38fb7a")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f158093-8bb3-4ed5-8cca-24405703f8e9")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.81) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601ad372-757c-4328-9888-d4340b120f8f")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608f5f54-abc4-447a-bd28-8fa47cdf6e04")
+	)
+	(wire
+		(pts
+			(xy 255.27 80.01) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64edf16e-2164-447c-8a05-55a1d6b46ecc")
+	)
+	(wire
+		(pts
+			(xy 255.27 59.69) (xy 255.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653a21f5-c01f-4e93-9a34-8fb866b7b27e")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 59.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65427500-c947-4596-a3fa-95fe4916d6e5")
+	)
+	(wire
+		(pts
+			(xy 86.36 97.79) (xy 59.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6560164a-876d-4484-b463-fd9a22a5915d")
+	)
+	(wire
+		(pts
+			(xy 208.28 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7a06fb-b8e9-4ff5-9b96-44227f33b888")
+	)
+	(bus
+		(pts
+			(xy 57.15 74.93) (xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c55fb2c-c024-4435-b041-4516b7d0c315")
+	)
+	(bus
+		(pts
+			(xy 57.15 82.55) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b82a5d-3984-4338-a7a7-9bd14899e66c")
+	)
+	(wire
+		(pts
+			(xy 255.27 59.69) (xy 242.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73faee56-3034-42e7-be15-fce7c66d0ac0")
+	)
+	(wire
+		(pts
+			(xy 208.28 120.65) (xy 193.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7445d8b3-bbbb-48dc-a702-2a638df1ce2a")
+	)
+	(wire
+		(pts
+			(xy 149.86 120.65) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76244552-3112-4428-a899-55251ea3aad7")
+	)
+	(wire
+		(pts
+			(xy 255.27 69.85) (xy 255.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ead0ab-bc96-4cab-b24b-f84163d221cb")
+	)
+	(bus
+		(pts
+			(xy 57.15 54.61) (xy 43.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b90eb3e-5e3c-4419-a6a9-60e21968be90")
+	)
+	(wire
+		(pts
+			(xy 255.27 69.85) (xy 242.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ff8c73-077a-4a7e-8a36-4e4e87abe997")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 139.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886a4f4d-4e7e-4432-8377-7e594ae1c051")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c6ca9a-f7c7-456f-9170-f5ed1314715d")
+	)
+	(bus
+		(pts
+			(xy 57.15 54.61) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a093560-56f8-4479-89d8-86f08b0e1077")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d558d20-1140-4aa5-aa64-c95edfea6bfa")
+	)
+	(wire
+		(pts
+			(xy 120.65 59.69) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e36943b-58f2-4429-a28a-35b5a0f1976e")
+	)
+	(bus
+		(pts
+			(xy 57.15 90.17) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f50f89c-3a64-417f-8231-4dce429eeebc")
+	)
+	(wire
+		(pts
+			(xy 86.36 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902e1989-4060-4f66-a9c4-658ce7aac7b7")
+	)
+	(bus
+		(pts
+			(xy 57.15 67.31) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d670f9-8512-4e8e-b328-3352b444541a")
+	)
+	(wire
+		(pts
+			(xy 86.36 95.25) (xy 59.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93def50d-e1f8-4459-9fff-2606dee57be2")
+	)
+	(wire
+		(pts
+			(xy 255.27 80.01) (xy 255.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3cc4b2-42f0-4d45-bbf8-c18ff9ec7083")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c74a55a-9438-46f7-955f-2ec96795159b")
+	)
+	(wire
+		(pts
+			(xy 208.28 130.81) (xy 193.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecd1d1e-4b04-4936-a720-89f22a691525")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1641d7e-c10d-491b-8c16-4b133645ce6e")
+	)
+	(wire
+		(pts
+			(xy 86.36 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40e9743-4601-4ff1-b943-00c67ef7c65c")
+	)
+	(wire
+		(pts
+			(xy 237.49 69.85) (xy 227.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6de11e9-9ff0-46a4-a1dc-6aaa1398180e")
+	)
+	(wire
+		(pts
+			(xy 86.36 87.63) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91076b4-cec0-47da-b559-937532e54ffd")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 105.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab89d90b-83ac-434b-947c-9442511ffe60")
+	)
+	(wire
+		(pts
+			(xy 255.27 120.65) (xy 242.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abed8b93-d546-4c73-bddd-4b66f199498c")
+	)
+	(wire
+		(pts
+			(xy 237.49 59.69) (xy 227.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9cce84-0645-4185-862a-4fbae1d47cf9")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 59.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e73fd-b611-462e-934d-4971313c07a7")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13fd04e-8a7e-4174-a9dd-dcc3ac4c2568")
+	)
+	(bus
+		(pts
+			(xy 57.15 82.55) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1482c16-bb62-439f-bb7e-670ee448cf11")
+	)
+	(bus
+		(pts
+			(xy 57.15 62.23) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6195e02-ae64-4c7a-ab94-84287c8da169")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c77f9f-f066-4dd4-acdd-20689c0cb63d")
+	)
+	(wire
+		(pts
+			(xy 255.27 100.33) (xy 255.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb724c88-f510-43f0-a502-9be87e8df06e")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebab18a-a817-4dc7-8e4e-91eebcfc0c2d")
+	)
+	(wire
+		(pts
+			(xy 237.49 90.17) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf56e823-d852-4563-9621-922068ad460a")
+	)
+	(bus
+		(pts
+			(xy 57.15 97.79) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b39207-f0e1-4f9d-97aa-d99a5af346ae")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ce270d-bf2e-4be7-9817-3dd357a66ed1")
+	)
+	(wire
+		(pts
+			(xy 255.27 110.49) (xy 242.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71bf931-2353-4c64-acd4-646ef720ba9e")
+	)
+	(wire
+		(pts
+			(xy 237.49 80.01) (xy 227.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79e9008-b68d-47d9-8e34-f537d3e54b39")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bb7518-1d4e-4303-a30e-dca829dd5772")
+	)
+	(wire
+		(pts
+			(xy 237.49 100.33) (xy 227.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce769daf-68e5-4979-b4f3-2520953f4c44")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea29fae-894b-48a2-b62f-f0df1a37ac5c")
+	)
+	(wire
+		(pts
+			(xy 208.28 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a3d1f-e106-45d8-b3ad-c58b79f2c9e4")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d344dca7-13bd-42af-85e7-e3103655c941")
+	)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 59.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5d8915-af52-49c1-bf49-6657db0a65b9")
+	)
+	(bus
+		(pts
+			(xy 57.15 95.25) (xy 57.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c97161-a812-457b-9d06-26f84b3eaab0")
+	)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f1df70-e9ae-46d1-bd28-15fd0f9547af")
+	)
+	(bus
+		(pts
+			(xy 57.15 85.09) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e2f661-30c9-4bd2-9761-a190234992e1")
+	)
+	(wire
+		(pts
+			(xy 86.36 67.31) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b56df5-453c-4f33-b627-ef2c48b55b6e")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 193.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e585c840-8b84-49e8-87e5-375df4da1767")
+	)
+	(wire
+		(pts
+			(xy 237.49 110.49) (xy 227.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60803b4-c99f-46d1-9e92-37ca97e8ee50")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65c2de7-3a93-49b5-bd1e-bf56b425c6c6")
+	)
+	(wire
+		(pts
+			(xy 237.49 130.81) (xy 227.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71650ec-da94-4569-95ee-ebee3c1a157e")
+	)
+	(wire
+		(pts
+			(xy 149.86 130.81) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8790500-e85b-4d24-8833-382aacbacce5")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96893b6-bbe8-4b30-be85-3d30852a418e")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dcf9ef-d49a-4a17-8aec-7a79687d9f05")
+	)
+	(wire
+		(pts
+			(xy 208.28 59.69) (xy 193.04 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4cc42c-ecfb-4faf-ad35-e3c4afa8928f")
+	)
+	(wire
+		(pts
+			(xy 208.28 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f9af8e-4597-4c87-b6e5-c324a4b7f081")
+	)
+	(bus
+		(pts
+			(xy 57.15 87.63) (xy 57.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f149f044-d150-435b-85f4-5c81d03a4fbe")
+	)
+	(wire
+		(pts
+			(xy 208.28 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23d20be-2b21-410f-9080-1527e6d17ce1")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f510bd60-dd9a-4509-b54d-bb10cab36c13")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0b55c4-41ca-4354-84e9-3d5df6d2230c")
+	)
+	(wire
+		(pts
+			(xy 255.27 130.81) (xy 255.27 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc118abd-5c9b-4697-adbb-2c86a430217d")
+	)
+	(bus
+		(pts
+			(xy 57.15 92.71) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff66b86e-af19-46d5-9bc5-55ca2186b293")
+	)
+	(label "D_Output13"
+		(at 193.04 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a64f198-855c-4047-b06b-6c26fa7d4ed6")
+	)
+	(label "D_Output6"
+		(at 105.41 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "154f4605-2a31-4852-bc52-2009534be68a")
+	)
+	(label "D_Output5"
+		(at 86.36 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "160b80ab-75fd-4579-a598-6425a4fe8599")
+	)
+	(label "D_Output8"
+		(at 86.36 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cf64c6c-b330-48bd-9a89-4dec884ef2c6")
+	)
+	(label "D_Output1"
+		(at 105.41 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec1ca69-03cf-48cd-b058-fffa09dd8e67")
+	)
+	(label "D_Output0"
+		(at 105.41 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3405a89f-4aaf-4b50-ad59-ea59488efc79")
+	)
+	(label "D_Output12"
+		(at 193.04 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34512b0f-e582-4f9d-95bb-5b3f0203fd5a")
+	)
+	(label "D_Output11"
+		(at 86.36 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "367323cd-dd90-41cc-af2e-4a5d0bf889a1")
+	)
+	(label "D_Output1"
+		(at 86.36 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3edced15-8df0-471e-9790-db70b10e7461")
+	)
+	(label "D_Output6"
+		(at 86.36 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d3e3dc7-d1c1-4376-ba29-b13f9a04d5a9")
+	)
+	(label "D_Output2"
+		(at 105.41 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d4653d1-43a1-4fd9-863c-7f38bdad6a78")
+	)
+	(label "D_Output15"
+		(at 193.04 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e61a72-e030-4d69-b6e8-3b881609e375")
+	)
+	(label "D_Output11"
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "659a462e-1acb-43ff-b2ac-ffde58d9822f")
+	)
+	(label "D_Output3"
+		(at 105.41 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75c3cb3c-924a-4841-97a3-dcc409eb190c")
+	)
+	(label "D_Output14"
+		(at 193.04 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "764fe821-a4df-4f98-968f-9143475c4f54")
+	)
+	(label "D_Output10"
+		(at 193.04 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cbd1da5-c5e7-4c9a-99bc-31be83325c96")
+	)
+	(label "D_Output10"
+		(at 86.36 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e70372c-907b-4404-b9ab-8a3e262fe64e")
+	)
+	(label "D_Output8"
+		(at 193.04 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "811591a1-f17b-4282-8e24-bc9c74a89911")
+	)
+	(label "D_Output5"
+		(at 105.41 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84c7e48b-af6a-4911-938d-7f4fc54d9493")
+	)
+	(label "D_Output12"
+		(at 86.36 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f83b054-3b16-414c-9573-b709120a9d88")
+	)
+	(label "D_Output3"
+		(at 86.36 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9525f19e-3fa9-4570-9a4d-ee0cd915ed25")
+	)
+	(label "D_Output9"
+		(at 193.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a285ee21-f9b7-4b1f-8f6a-af31a47a4822")
+	)
+	(label "D_Output15"
+		(at 86.36 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac905f9e-ec67-4d9b-ab12-5ba4608e3c27")
+	)
+	(label "D_Output9"
+		(at 86.36 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afd58016-9439-4b59-8e42-20aff68b8b40")
+	)
+	(label "D_Output7"
+		(at 105.41 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0abd090-8227-40d4-aec9-6cd1616405b3")
+	)
+	(label "D_Output0"
+		(at 86.36 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbdd2f58-5a46-467f-8822-12151d8ece3c")
+	)
+	(label "D_Output7"
+		(at 86.36 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3b34ce3-8526-47d6-852d-11a4929f603f")
+	)
+	(label "D_Output13"
+		(at 86.36 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8204e7c-e9ad-476e-884c-db9b85291827")
+	)
+	(label "D_Output4"
+		(at 86.36 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d781a17e-9655-4f1a-a6ff-2acebe2338f9")
+	)
+	(label "D_Output14"
+		(at 86.36 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddf05496-9bb3-4a86-b7b0-9cd036852f88")
+	)
+	(label "D_Output4"
+		(at 105.41 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f735e029-5e43-4806-8eb2-e6510ddda511")
+	)
+	(label "D_Output2"
+		(at 86.36 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbbc4110-be8d-4705-809a-1d091bb1265a")
+	)
+	(hierarchical_label "D_Output[0..15]"
+		(shape input)
+		(at 43.18 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68860afb-97b6-41eb-b26e-aafd63dec42a")
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "107779d8-49be-4ee9-ba14-411172abb3f2")
+		(property "Reference" "J4"
+			(at 154.94 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21954e37-f55a-41b4-86a8-288cb0154163")
+		)
+		(pin "2"
+			(uuid "d46d723a-04ed-43b2-b3d3-15c663e3b9ea")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 130.81 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a99f2b9-c4a8-4b0a-9aec-750b600d3db8")
+		(property "Reference" "J16"
+			(at 242.57 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b1fcf80-e335-46ef-b363-3fecd6d01017")
+		)
+		(pin "2"
+			(uuid "325dbc62-dc8c-435e-ac80-fa009c58a03f")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1acd6da1-b587-4624-923f-434b71d451a0")
+		(property "Reference" "J3"
+			(at 154.94 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34e00633-705d-4196-8809-3ac0dd363417")
+		)
+		(pin "2"
+			(uuid "4a62a2d9-0f52-4c76-b957-eabbdea9b618")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "276f1b43-3257-46f7-97ba-814b3ae0e11f")
+		(property "Reference" "J12"
+			(at 242.57 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b4f5c2e-893b-456a-871d-6a8ae6c50ba4")
+		)
+		(pin "2"
+			(uuid "93f20e4e-a83e-4a01-8675-347d4d1d8db3")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e49fb9-aa62-4087-b40f-4f4bad30e0df")
+		(property "Reference" "J2"
+			(at 154.94 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf3f57e-375c-4a60-8cb9-b24cff1db62f")
+		)
+		(pin "2"
+			(uuid "15cd8557-bb2b-4b1f-9b43-e708b678ff21")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 130.81 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3004d26b-881c-4b63-bf7f-85c71d24af04")
+		(property "Reference" "J8"
+			(at 154.94 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd7d919-fdca-41d0-a547-7916b48e1f96")
+		)
+		(pin "2"
+			(uuid "6f16b665-7781-4dde-b7be-e035eeed0d3f")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337ed7a7-6b67-47a7-bebf-29ae66e41b4a")
+		(property "Reference" "#PWR01"
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3517d3b8-d687-4d52-9a97-47d81ec7fec6")
+		)
+		(instances
+			(project ""
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 100.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e6635c2-9e08-4821-995c-9d6156f142d1")
+		(property "Reference" "J5"
+			(at 154.94 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88be95c5-26b1-4b33-ad1a-ca48d22087f6")
+		)
+		(pin "2"
+			(uuid "ebe6d71a-dfc1-4842-a733-9506c666b857")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53f65c40-2c00-4cbc-9991-998075582edf")
+		(property "Reference" "J14"
+			(at 242.57 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9e5d77e-b0d5-4f6f-814b-33d68effb0f2")
+		)
+		(pin "2"
+			(uuid "a663d84f-fe7a-48a7-8f84-77a2513b09ad")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "898df609-a751-4716-9a94-e267ad5985a7")
+		(property "Reference" "J11"
+			(at 242.57 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f96ef03d-aca7-45e2-9603-bdbbf3df08cf")
+		)
+		(pin "2"
+			(uuid "bffc7439-524c-4987-a0a1-5c90923aae51")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89ce2cb3-a221-4151-9871-401d00fabb42")
+		(property "Reference" "J7"
+			(at 154.94 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a44fbd-21dc-476d-a11d-ec28bb4928d6")
+		)
+		(pin "2"
+			(uuid "105205ff-8827-4076-89fe-6c6195dce70c")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 100.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f0db787-98a4-422e-8f95-cb4ea20f67c0")
+		(property "Reference" "J13"
+			(at 242.57 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6296128-c085-4d4d-a27d-90814ba6b699")
+		)
+		(pin "2"
+			(uuid "7e2a7db7-942b-4ee9-bac0-624b67d11e24")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d82610f-59d8-4c1f-9c2e-2f82a70803bb")
+		(property "Reference" "#PWR059"
+			(at 167.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4df5878f-9e89-4a06-a440-f205399ed7d7")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 110.49 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7ff2894-9898-4c31-a818-9db352173231")
+		(property "Reference" "J6"
+			(at 154.94 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d94940f2-fde6-4204-ab52-ef612c9c6e49")
+		)
+		(pin "2"
+			(uuid "21697b6f-2e61-41ae-9242-7c20904e4403")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c93f5c1b-c721-4534-aba2-f6477206001a")
+		(property "Reference" "J10"
+			(at 242.57 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "173b0d4e-5405-44ce-a7ae-d199e1e1c00e")
+		)
+		(pin "2"
+			(uuid "8abb955e-228d-43dd-9d71-8038f7f85b7a")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e26a0c62-8b82-4d03-abd4-a61b0bfa1e6a")
+		(property "Reference" "J15"
+			(at 242.57 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e986eb-6fa1-4729-96f8-55e86eb8b99f")
+		)
+		(pin "2"
+			(uuid "e5a46a38-4148-414a-ae6f-0a3ae35b1422")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 152.4 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e37dff03-34ad-4dbc-9037-5d00b36f11c2")
+		(property "Reference" "J1"
+			(at 154.94 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 148.59 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3e9eb15-d379-4bcc-8153-dafc9007c36f")
+		)
+		(pin "2"
+			(uuid "c127bd70-0832-4dac-a84d-d15a0989db7e")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 240.03 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90ee902-5c87-411b-ba9f-a54c55303ca8")
+		(property "Reference" "J9"
+			(at 242.57 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMCX"
+			(at 236.22 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MMCX JACK STR 50 OHM PCB"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMCX-J-P-H-ST-TH1"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15acd677-562f-414f-9e0c-7d201f698180")
+		)
+		(pin "2"
+			(uuid "e688ceb6-0072-4271-a60c-522337182038")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 57.15)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "059e9589-be37-4d36-9e08-df156d24b4aa")
+		(property "Sheetname" "out_buffer8"
+			(at 208.28 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 59.69 180)
+			(uuid "e5c8c9d8-2c47-4dfc-a91c-22428816fc3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 59.69 0)
+			(uuid "6e626898-3411-49f5-9d38-c6a00b47bd71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 97.79)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "078e80e4-c987-486a-a8a5-29a8f753317d")
+		(property "Sheetname" "out_buffer4"
+			(at 120.65 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 100.33 180)
+			(uuid "06d520b8-3769-419f-967e-9702c59e1a0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 100.33 0)
+			(uuid "a0ae70d2-cdc0-43ec-81c2-e7866bc704ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 87.63)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "08e81456-4337-42cd-9898-17bd8f6880ea")
+		(property "Sheetname" "out_buffer11"
+			(at 208.28 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 90.17 180)
+			(uuid "fca4c8cc-70f5-47b9-a6b9-7fe95d9c99a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 90.17 0)
+			(uuid "49bbab3f-11bb-4086-ae04-074220a38eae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 77.47)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "0ce0fa40-0a58-4630-94b8-f3d6e17f24a4")
+		(property "Sheetname" "out_buffer10"
+			(at 208.28 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 80.01 180)
+			(uuid "822dbaba-6421-4af2-9522-cd0aac5d0620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 80.01 0)
+			(uuid "9981b1cc-8fbc-4230-bee2-18f0511604f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 57.15)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "0e0eb309-03ed-4cc1-b928-68f91f937116")
+		(property "Sheetname" "out_buffer0"
+			(at 120.65 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 59.69 180)
+			(uuid "b34f4bde-0f4e-434d-9c6b-15e24f37d37f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 59.69 0)
+			(uuid "c2023b87-04ba-4538-a7b5-86934949e1cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 77.47)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "140f8a59-c0de-49e9-8a67-54b93cfbbdf0")
+		(property "Sheetname" "out_buffer2"
+			(at 120.65 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 80.01 180)
+			(uuid "f1545e55-ad94-4394-89dc-b04bfc9c5540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 80.01 0)
+			(uuid "090b6d4e-7814-43aa-9eb4-01bcc5c027c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 107.95)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "24628614-be1c-46ae-a41d-87b4d1690d5f")
+		(property "Sheetname" "out_buffer5"
+			(at 120.65 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 110.49 180)
+			(uuid "7a62ac5e-0be6-4725-be21-5a02bc62b73a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 110.49 0)
+			(uuid "d82892cb-0619-42aa-80ac-d1c3087584bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 118.11)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3278417c-7cc5-4abe-840a-949519c7aecb")
+		(property "Sheetname" "out_buffer6"
+			(at 120.65 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 120.65 180)
+			(uuid "422d05ac-d997-4a43-ba79-a88ba09ca2fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 120.65 0)
+			(uuid "e6ec57dd-286b-4d3e-95dd-3430c2c72f01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 67.31)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8ac73fd8-28a4-44b3-a19b-2b7a39331c9b")
+		(property "Sheetname" "out_buffer1"
+			(at 120.65 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 69.85 180)
+			(uuid "3c80fc4c-d333-4297-a6de-78cf2ed7cebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 69.85 0)
+			(uuid "cfa7db5b-c857-416e-9256-4a00fb8fb862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 67.31)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "96dcedf7-2577-4011-9ae7-e9db01a6b373")
+		(property "Sheetname" "out_buffer9"
+			(at 208.28 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 69.85 180)
+			(uuid "c56cb2db-ca2f-4b34-9dc6-68e2537da53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 69.85 0)
+			(uuid "71b183fb-610f-4b5a-9c4e-7842031502d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 97.79)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "978f8364-49eb-4723-8132-d79345bde36a")
+		(property "Sheetname" "out_buffer12"
+			(at 208.28 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 100.33 180)
+			(uuid "5bc397cb-f280-4d31-a63c-aac8107b2ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 100.33 0)
+			(uuid "e351c516-bde7-4271-bc1a-8c27fa3ea6e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 107.95)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "bae5218c-5922-46a8-9440-1740d4702813")
+		(property "Sheetname" "out_buffer13"
+			(at 208.28 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 110.49 180)
+			(uuid "d53aeecd-4e6b-41cb-a998-d3db6916cd3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 110.49 0)
+			(uuid "d9f1a4e0-8fac-4b33-bdbe-ac2473a355f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 87.63)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "bd04b534-93f8-4b62-b974-54078de73acd")
+		(property "Sheetname" "out_buffer3"
+			(at 120.65 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 90.17 180)
+			(uuid "0ec6cd0c-20d8-4b40-912d-13158f0bf660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 90.17 0)
+			(uuid "58989ff5-e483-4393-b818-095a3f5ad657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 128.27)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "c97b6566-d851-4662-98d8-20823a5a3a95")
+		(property "Sheetname" "out_buffer15"
+			(at 208.28 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 130.81 180)
+			(uuid "0c7d68f3-d8a3-426d-9e06-573551d60245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 130.81 0)
+			(uuid "0a30201f-1f9a-4001-8458-605a7454743c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 118.11)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d635b37a-67a8-44bd-8b3a-bd64a84d66bd")
+		(property "Sheetname" "out_buffer14"
+			(at 208.28 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 208.28 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 208.28 120.65 180)
+			(uuid "e8ef0386-a76d-4567-bff7-ce41d06d6b3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 227.33 120.65 0)
+			(uuid "d28be89c-b186-4e91-9f56-0b230b579942")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 128.27)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e6d9a444-f4d6-40c4-ab17-f76a5f2a9a82")
+		(property "Sheetname" "out_buffer7"
+			(at 120.65 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "out_buffer.kicad_sch"
+			(at 120.65 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 120.65 130.81 180)
+			(uuid "e79d9951-a245-4c61-be24-055f3680029a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 139.7 130.81 0)
+			(uuid "ce14bd50-cc82-4898-885a-b2a6658203f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(page "15")
+				)
+			)
+		)
+	)
+)
