@@ -1719,16 +1719,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 105.41 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2fada3-f62c-4bb4-984d-ad58e0a67e44")
-	)
-	(wire
-		(pts
 			(xy 105.41 111.76) (xy 114.3 111.76)
 		)
 		(stroke
@@ -1736,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "6598e509-9c21-4dbe-9b84-5d428520e1d6")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668bba95-0ffc-4224-9091-b72e34dce783")
 	)
 	(wire
 		(pts
@@ -5181,46 +5181,16 @@
 		)
 		(uuid "79799792-b6da-431f-ae4e-cd3bdc7120fc")
 	)
-	(label "1P8V"
-		(at 165.1 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84226732-72a1-4b06-b396-15e9fedf79a1")
-	)
-	(label "3P3V"
-		(at 165.1 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df662275-7bb9-44bd-914e-3a2f4f999c51")
-	)
-	(global_label "P1_12P0V"
+	(hierarchical_label "Power_Input"
 		(shape input)
 		(at 86.36 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "11a774d6-8f19-4d39-a65b-a68aae95ed0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.9406 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2be4c989-518e-4a70-a5b9-b984e0ca4311")
 	)
 	(hierarchical_label "3P3V_Clean"
 		(shape output)
@@ -7988,6 +7958,74 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 87.63 111.76 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d184f658-0184-4f52-ab91-e56dddb90f78")
+		(property "Reference" "#FLG01"
+			(at 85.725 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bd6b1d-440d-4c15-96dc-99ac4103348b")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
