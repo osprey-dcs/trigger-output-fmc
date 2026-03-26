@@ -1313,36 +1313,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "540mW heat"
-		(exclude_from_sim no)
-		(at 127 103.378 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "15ceb0f7-56c1-409b-a210-58fa24be5005")
-	)
-	(text "560mW heat"
-		(exclude_from_sim no)
-		(at 127 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35ef96a5-abe9-4515-9172-e784e916aa1e")
-	)
-	(text "560mA total input"
-		(exclude_from_sim no)
-		(at 98.806 72.136 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a7b3adc-c8ce-4573-b6b5-49123766ad8a")
-	)
 	(text "VDD = 1.8V\nVDDA = 3.3V"
 		(exclude_from_sim no)
 		(at 134.874 154.686 0)
@@ -1390,6 +1360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22ce57de-caf0-4762-8b88-e7a2fa982c55")
+	)
+	(junction
+		(at 110.49 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c1d7c6-937a-4524-937f-f978d4d9392a")
 	)
 	(junction
 		(at 148.59 111.76)
@@ -1444,12 +1420,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc4fc1ba-ddb6-40c0-a6de-1c2155397335")
-	)
-	(junction
-		(at 110.49 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1fcc8ac-98be-45ea-9442-e46105095842")
 	)
 	(junction
 		(at 179.07 36.83)
@@ -1546,6 +1516,16 @@
 			(type default)
 		)
 		(uuid "15150952-47f5-44fd-8c88-1c99a8715b05")
+	)
+	(wire
+		(pts
+			(xy 210.82 76.2) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf09bfe-8a81-452a-84d6-e3ba4cfcb818")
 	)
 	(wire
 		(pts
@@ -1719,6 +1699,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 111.76) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c7b18d-1a8f-4fbf-97eb-4c07873921e6")
+	)
+	(wire
+		(pts
 			(xy 105.41 111.76) (xy 114.3 111.76)
 		)
 		(stroke
@@ -1859,16 +1849,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 110.49 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84f6b24-85a3-4159-8e82-5197d0dcc6f3")
-	)
-	(wire
-		(pts
 			(xy 105.41 76.2) (xy 105.41 80.01)
 		)
 		(stroke
@@ -1886,6 +1866,16 @@
 			(type default)
 		)
 		(uuid "b979e7c4-f8f6-4ec1-9bd4-f3f848fc8ad7")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 95.25 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b25435-f3d5-4e2a-a5ca-2f86e79bbb87")
 	)
 	(wire
 		(pts
@@ -2009,6 +1999,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 36.83) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54a7fbd-8f5f-423d-b071-20070ed86710")
+	)
+	(wire
+		(pts
 			(xy 120.65 45.72) (xy 120.65 50.8)
 		)
 		(stroke
@@ -2016,6 +2016,16 @@
 			(type default)
 		)
 		(uuid "f8eb328a-f597-4cfd-bbd6-4f3443dc090f")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 233.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1dffc0-7571-486e-abf7-ef2d332fb9fa")
 	)
 	(wire
 		(pts
@@ -5151,16 +5161,6 @@
 			"t2LDAJX87gAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "4P3V"
-		(at 219.71 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20ed17fb-415f-47ed-8041-060ef7a2c9e4")
-	)
 	(label "3P3V"
 		(at 90.17 111.76 0)
 		(effects
@@ -5181,6 +5181,16 @@
 		)
 		(uuid "79799792-b6da-431f-ae4e-cd3bdc7120fc")
 	)
+	(label "4P3V"
+		(at 233.68 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd4d18a8-d450-4e3d-8d7c-a591d49d3e39")
+	)
 	(hierarchical_label "Power_Input"
 		(shape input)
 		(at 86.36 36.83 180)
@@ -5194,7 +5204,7 @@
 	)
 	(hierarchical_label "3P3V_Clean"
 		(shape output)
-		(at 199.39 76.2 0)
+		(at 210.82 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5215,7 @@
 	)
 	(hierarchical_label "1P8V_Clean"
 		(shape output)
-		(at 200.66 111.76 0)
+		(at 210.82 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6473,6 +6483,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 203.2 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663d2fc0-0a47-4152-8a02-cc3216deee79")
+		(property "Reference" "R87"
+			(at 203.2 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 203.2 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 203.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61c9a37b-a03f-4b5a-89e4-f2bfcbde4a6c")
+		)
+		(pin "2"
+			(uuid "d1599fab-5278-4c3e-b568-44b7476d4e20")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 222.25 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69b2a840-b596-4f1c-b89a-8e8dbf3069cf")
+		(property "Reference" "R111"
+			(at 222.25 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 222.25 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 222.25 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea889a60-30ca-40ba-8e42-c2da66ee106c")
+		)
+		(pin "2"
+			(uuid "180cd058-a766-40d5-b48e-97a5c7f98990")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 116.84 0)
 		(unit 1)
@@ -7558,6 +7722,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 201.93 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af41e192-6b48-42f6-a833-1e0cb015d8bc")
+		(property "Reference" "R86"
+			(at 201.93 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 201.93 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 201.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d59bf97-f855-4999-aaf4-b4fe6425f1ea")
+		)
+		(pin "2"
+			(uuid "7c06cf7e-5f81-44d0-865f-f2521a2efa94")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 203.2 34.29 0)
 		(unit 1)
@@ -8091,6 +8332,83 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 97.79 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1bc697e-e7cc-4896-a82d-d1d7b6b68480")
+		(property "Reference" "R88"
+			(at 97.79 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 97.79 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 97.79 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7b41a35-e9b3-456b-9de2-fda63299cee0")
+		)
+		(pin "2"
+			(uuid "51035aa4-6945-4873-b18e-9f8fe761b867")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/ad07928c-12a9-42cf-8d66-942ea8d8f93f"
+					(reference "R88")
 					(unit 1)
 				)
 			)

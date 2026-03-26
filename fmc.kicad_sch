@@ -17559,7 +17559,7 @@
 		)
 		(uuid "07d21102-3a6c-43bc-a7a8-5c1421f93e79")
 	)
-	(label "Cleaner_SPI_0.DIN"
+	(label "Cleaner_SPI_0.SDI"
 		(at 300.99 49.53 0)
 		(effects
 			(font
@@ -17829,7 +17829,7 @@
 		)
 		(uuid "3c9ac5ac-36ec-4719-9f1e-791acdda339a")
 	)
-	(label "Cleaner_SPI_0.DOUT"
+	(label "Cleaner_SPI_0.SDO"
 		(at 360.68 52.07 0)
 		(effects
 			(font
@@ -17839,7 +17839,7 @@
 		)
 		(uuid "3d26b053-8f88-491b-acf2-185e9032084c")
 	)
-	(label "Cleaner_SPI_0.DIN"
+	(label "Cleaner_SPI_0.SDI"
 		(at 86.36 45.72 180)
 		(effects
 			(font
@@ -17849,7 +17849,7 @@
 		)
 		(uuid "3d45097a-96c3-4407-94a4-1fdba9f1f325")
 	)
-	(label "Cleaner_SPI_1.DIN"
+	(label "Cleaner_SPI_1.SDI"
 		(at 86.36 99.06 180)
 		(effects
 			(font
@@ -18189,7 +18189,7 @@
 		)
 		(uuid "9069290d-5806-4414-ba1a-c87daa355526")
 	)
-	(label "Cleaner_SPI_0.DOUT"
+	(label "Cleaner_SPI_0.SDO"
 		(at 86.36 48.26 180)
 		(effects
 			(font
@@ -18239,7 +18239,7 @@
 		)
 		(uuid "ad0614d4-0bed-4a14-a3ec-d999d57bc2e1")
 	)
-	(label "Cleaner_SPI_1.DIN"
+	(label "Cleaner_SPI_1.SDI"
 		(at 300.99 87.63 0)
 		(effects
 			(font
@@ -18349,7 +18349,7 @@
 		)
 		(uuid "c3291556-06bf-453d-a2e7-e404812a4cff")
 	)
-	(label "Cleaner_SPI_1.DOUT"
+	(label "Cleaner_SPI_1.SDO"
 		(at 86.36 101.6 180)
 		(effects
 			(font
@@ -18399,7 +18399,7 @@
 		)
 		(uuid "def8dd0a-b71a-4d05-9632-f514e91e2704")
 	)
-	(label "Cleaner_SPI_1.DOUT"
+	(label "Cleaner_SPI_1.SDO"
 		(at 360.68 97.79 0)
 		(effects
 			(font
@@ -35605,15 +35605,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 30.48 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 30.48 201.93 0)
 			(effects
 				(font
