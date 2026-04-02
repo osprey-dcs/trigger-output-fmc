@@ -1325,7 +1325,7 @@
 	)
 	(text "250mA Typ fo 2x SI5394 500mA max"
 		(exclude_from_sim no)
-		(at 177.8 106.426 0)
+		(at 177.038 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 	)
 	(text "230mA Typ fo 2x SI5394 260mA max"
 		(exclude_from_sim no)
-		(at 177.8 70.866 0)
+		(at 177.546 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1516,16 +1516,6 @@
 			(type default)
 		)
 		(uuid "15150952-47f5-44fd-8c88-1c99a8715b05")
-	)
-	(wire
-		(pts
-			(xy 210.82 76.2) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf09bfe-8a81-452a-84d6-e3ba4cfcb818")
 	)
 	(wire
 		(pts
@@ -1866,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "b979e7c4-f8f6-4ec1-9bd4-f3f848fc8ad7")
+	)
+	(wire
+		(pts
+			(xy 204.47 76.2) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05ed2d0-f8d2-4ed4-aea5-d5c3a261af57")
 	)
 	(wire
 		(pts
@@ -5181,6 +5181,16 @@
 		)
 		(uuid "79799792-b6da-431f-ae4e-cd3bdc7120fc")
 	)
+	(label "3P3V"
+		(at 220.98 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80513f2f-e008-4a19-90b8-5d397cdb4d6f")
+	)
 	(label "4P3V"
 		(at 233.68 36.83 180)
 		(effects
@@ -5204,7 +5214,7 @@
 	)
 	(hierarchical_label "3P3V_Clean"
 		(shape output)
-		(at 210.82 76.2 0)
+		(at 227.33 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6277,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps562200.pdf"
 			(at 142.24 39.37 0)
 			(effects
 				(font

@@ -1460,7 +1460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6663/AT24C64D-UUM-T.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/AT24C64D-64-Kbit-Serial-EEPROM-I2C-Compatible-Two-Wire-DS20005937.pdf"
 			(at 138.43 101.6 0)
 			(effects
 				(font

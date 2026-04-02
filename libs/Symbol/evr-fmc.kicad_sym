@@ -21785,7 +21785,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 -38.1 180)
+				(at 58.42 -36.83 180)
 				(length 5.08)
 				(name "~{OE}"
 					(effects

@@ -3562,7 +3562,7 @@
 					)
 				)
 				(pin passive line
-					(at 58.42 -38.1 180)
+					(at 58.42 -36.83 180)
 					(length 5.08)
 					(name "~{OE}"
 						(effects
@@ -4119,7 +4119,7 @@
 	)
 	(text "~{OE} Internal Pull Down\n\n"
 		(exclude_from_sim no)
-		(at 225.044 122.428 0)
+		(at 225.044 121.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4228,6 +4228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f2a1903-9ca8-40a1-b7f5-ed2752e1359b")
+	)
+	(junction
+		(at 246.38 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6213c7c2-259d-4fa4-9779-7d4a3d7291b1")
 	)
 	(junction
 		(at 115.57 48.26)
@@ -4998,16 +5004,6 @@
 			(type default)
 		)
 		(uuid "36ac7e7c-11f5-4de3-af8d-d84d34eb9cf8")
-	)
-	(wire
-		(pts
-			(xy 275.59 81.28) (xy 270.51 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af129b6-e022-4aa7-a698-b68f313b9472")
 	)
 	(wire
 		(pts
@@ -6331,13 +6327,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 157.48) (xy 267.97 157.48)
+			(xy 246.38 157.48) (xy 278.13 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb67e80f-b81d-4199-b497-c30844f01615")
+		(uuid "bb5f3aec-372d-419e-9cd1-74933741b0b1")
 	)
 	(wire
 		(pts
@@ -6468,6 +6464,16 @@
 			(type default)
 		)
 		(uuid "c83cf458-8e49-42fb-80e6-d67f3fcfcda9")
+	)
+	(wire
+		(pts
+			(xy 246.38 81.28) (xy 275.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4e0fa6-a2ca-45d6-a900-c43946a3b90e")
 	)
 	(wire
 		(pts
@@ -6621,7 +6627,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 121.92) (xy 213.36 121.92)
+			(xy 184.15 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6791,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 120.65) (xy 246.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5862a6c-95bd-497a-ba97-15c1e6f776c1")
+	)
+	(wire
+		(pts
 			(xy 280.67 81.28) (xy 275.59 81.28)
 		)
 		(stroke
@@ -6828,6 +6844,16 @@
 			(type default)
 		)
 		(uuid "f84a7111-e550-4af2-8532-0157ce3d4207")
+	)
+	(wire
+		(pts
+			(xy 246.38 81.28) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f881fdd6-1168-4e53-99a6-9569e83e3c23")
 	)
 	(wire
 		(pts
@@ -6919,7 +6945,7 @@
 		)
 		(uuid "19b581dc-f709-4b80-8056-99d950770859")
 	)
-	(label "SPI_OE"
+	(label "OE"
 		(at 267.97 157.48 0)
 		(effects
 			(font
@@ -7179,8 +7205,8 @@
 		)
 		(uuid "92198680-dbdd-4cc2-89aa-e0a1f2a695bf")
 	)
-	(label "SPI_OE"
-		(at 213.36 121.92 180)
+	(label "OE"
+		(at 213.36 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7672,7 +7698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+		(property "Footprint" "rf-input-fmc:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias"
 			(at 135.636 128.27 0)
 			(effects
 				(font
@@ -7682,7 +7708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/si5395-94-92-a-datasheet.pdf"
 			(at 134.62 129.794 0)
 			(effects
 				(font
@@ -7955,7 +7981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCM2-43X+.pdf"
 			(at 179.07 163.83 0)
 			(effects
 				(font
@@ -9129,7 +9155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf"
 			(at 300.99 139.7 0)
 			(effects
 				(font
@@ -10270,7 +10296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCM2-43X+.pdf"
 			(at 179.07 193.04 0)
 			(effects
 				(font
@@ -11207,7 +11233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1917/CX3225SB48000D0FPJC1.pdf"
 			(at 88.9 119.38 0)
 			(effects
 				(font
@@ -11826,7 +11852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf"
 			(at 303.53 76.2 0)
 			(effects
 				(font
@@ -12048,76 +12074,6 @@
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 270.51 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3bf218a-c2de-4d11-ade9-f9598126e0d5")
-		(property "Reference" "#PWR0110"
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5e1b37d-27e5-428a-867b-1a7f58120c34")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/51b6ba02-2a45-47f9-920d-b1129f765b02"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
