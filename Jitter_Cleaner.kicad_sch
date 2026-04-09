@@ -7733,7 +7733,7 @@
 		(uuid "834326a2-9668-4d25-aec2-ab7953c7398c")
 	)
 	(hierarchical_label "OE_Faults"
-		(shape output)
+		(shape input)
 		(at 360.68 82.55 0)
 		(effects
 			(font
@@ -10168,6 +10168,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 353.06 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c6e863a-482e-4b0e-8866-f40291924b7c")
+		(property "Reference" "R96"
+			(at 349.25 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.75k"
+			(at 350.012 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 353.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K75L"
+			(at 353.06 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03e70027-6024-4853-a72c-b9e166632a35")
+		)
+		(pin "2"
+			(uuid "b2b68376-a3d1-4ed2-a5f8-74cb63769957")
+		)
+		(instances
+			(project "evr-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/51b6ba02-2a45-47f9-920d-b1129f765b02"
+					(reference "R97")
+					(unit 1)
+				)
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 74.93 0)
 		(unit 1)
@@ -12443,95 +12524,6 @@
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
 					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 353.06 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6f5f3e5-a1da-4b9f-b1d0-bf7f07f94d53")
-		(property "Reference" "R96"
-			(at 356.616 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.75k"
-			(at 357.378 77.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 353.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.75K OHM 1% 1/10W 0603"
-			(at 353.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-134K75L"
-			(at 353.06 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 353.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71d1a61a-7639-438c-bf7c-21f7c06dc4bd")
-		)
-		(pin "2"
-			(uuid "e154fe62-1117-4f0c-8861-82bde5384a52")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/51b6ba02-2a45-47f9-920d-b1129f765b02"
-					(reference "R96")
-					(unit 1)
-				)
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
-					(reference "R96")
 					(unit 1)
 				)
 			)
