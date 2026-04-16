@@ -569,362 +569,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 1.27 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Ferrite_Small"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor with ferrite core, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Ferrite_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.651) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.143) (xy 0.762 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.635) (xy 0.762 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.127) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.381) (xy 0.762 -0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.889) (xy 0.762 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.397) (xy 0.762 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.905) (xy 1.016 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.397) (xy 1.016 1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.889) (xy 1.016 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.381) (xy 1.016 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.127) (xy 1.016 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.635) (xy 1.016 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.143) (xy 1.016 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.651) (xy 1.016 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -4883,16 +4527,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 48.26) (xy 219.71 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ff69677-901a-4798-93a4-9520da027e0e")
-	)
-	(wire
-		(pts
 			(xy 306.07 95.25) (xy 340.36 95.25)
 		)
 		(stroke
@@ -5693,16 +5327,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 66.04) (xy 115.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3b2035-22de-40c5-974f-e809684e6e43")
-	)
-	(wire
-		(pts
 			(xy 95.25 121.92) (xy 120.65 121.92)
 		)
 		(stroke
@@ -5753,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 66.04) (xy 105.41 66.04)
+			(xy 97.79 66.04) (xy 115.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6363,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 214.63 48.26)
+			(xy 208.28 48.26) (xy 226.06 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8533,7 +8157,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-201-D  "
+		(property "MPN" "RG1608P-101-B-T5"
 			(at 138.43 171.45 0)
 			(effects
 				(font
@@ -8565,87 +8189,6 @@
 				)
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 107.95 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e9bf970-5554-46df-b9f0-38e58af119c3")
-		(property "Reference" "L2"
-			(at 107.95 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60R@100Mhz; 3.5A"
-			(at 107.95 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM21PG600SN1D"
-			(at 107.95 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02028bf8-67ff-483e-b5ff-b8f188fb93a8")
-		)
-		(pin "2"
-			(uuid "4c762424-ba1f-4466-886a-189e6d34bc78")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/51b6ba02-2a45-47f9-920d-b1129f765b02"
-					(reference "L4")
-					(unit 1)
-				)
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8865,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-201-D  "
+		(property "MPN" "RG1608P-101-B-T5"
 			(at 138.43 200.66 0)
 			(effects
 				(font
@@ -11397,87 +10940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 217.17 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a75516a-3060-4c06-9cbd-6f5fb59bdc5c")
-		(property "Reference" "L3"
-			(at 217.17 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60R@100Mhz; 3.5A"
-			(at 217.17 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM21PG600SN1D"
-			(at 217.17 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e2ab4f2-9245-4a1c-a3f1-c5ab5835efbd")
-		)
-		(pin "2"
-			(uuid "41af4b05-b8e0-4aa0-92ea-f0cfbc54d7cb")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/51b6ba02-2a45-47f9-920d-b1129f765b02"
-					(reference "L5")
-					(unit 1)
-				)
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/72a6e05f-9d23-47d7-93ac-d48e996d2022"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 88.9 119.38 0)
 		(unit 1)
@@ -12465,7 +11927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 340.36 147.32 0)
 			(effects
 				(font
@@ -13126,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 147.32 0)
 			(effects
 				(font
@@ -13585,7 +13047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 340.36 189.23 0)
 			(effects
 				(font
