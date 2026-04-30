@@ -17597,6 +17597,16 @@
 		)
 		(uuid "ff8e7563-f3f3-4ce5-9eda-244488dcba36")
 	)
+	(label "Cleaner_SPI_1.SDI"
+		(at 227.33 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "031f1558-1ca8-4aef-9a1a-d8d342992f69")
+	)
 	(label "EEPROM_GA0"
 		(at 160.02 109.22 0)
 		(effects
@@ -17627,16 +17637,6 @@
 		)
 		(uuid "07d21102-3a6c-43bc-a7a8-5c1421f93e79")
 	)
-	(label "Cleaner_SPI_0.SDI"
-		(at 300.99 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0abd7d95-2bba-4efc-bbd3-b125fd785514")
-	)
 	(label "Cleaned_CLK_1.P"
 		(at 227.33 73.66 0)
 		(effects
@@ -17656,6 +17656,16 @@
 			(justify right bottom)
 		)
 		(uuid "0b00da0a-8207-4f8c-9ab2-af3c6b091e85")
+	)
+	(label "Cleaner_SPI_1.CLK"
+		(at 227.33 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0baa3894-70ac-47ee-b1ba-5ccb6f2c18d1")
 	)
 	(label "Cleaner_Fault_0.LOL"
 		(at 86.36 69.85 180)
@@ -17756,16 +17766,6 @@
 			(justify right bottom)
 		)
 		(uuid "1de4740e-fc51-4dae-9d23-946b2cd084a0")
-	)
-	(label "Cleaner_~{RST}_1"
-		(at 227.33 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ffa4e28-0122-4db4-b212-939103ce73c8")
 	)
 	(label "Cleaner_Fault_1.INTR"
 		(at 360.68 87.63 0)
@@ -17897,6 +17897,16 @@
 		)
 		(uuid "3a867603-19af-41da-9624-b810e7498f52")
 	)
+	(label "Cleaner_SPI_1.CS"
+		(at 300.99 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3af63fc6-5261-4e96-a6db-a0c4ea6efca7")
+	)
 	(label "D_Output6"
 		(at 300.99 62.23 0)
 		(effects
@@ -17976,6 +17986,16 @@
 			(justify right bottom)
 		)
 		(uuid "44c23ca4-c991-47de-b1fd-8f273d7c0e78")
+	)
+	(label "Cleaner_SPI_1.OE"
+		(at 227.33 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "456be6e9-47f1-4536-bbf4-e4bbbe15a7fd")
 	)
 	(label "EEPROM_SCL"
 		(at 160.02 99.06 0)
@@ -18107,16 +18127,6 @@
 		)
 		(uuid "6243f490-c696-41be-ad3d-988a8597c8a7")
 	)
-	(label "Cleaner_SPI_0.CLK"
-		(at 227.33 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "658f7efd-ea82-4b97-9732-4f3eaab12818")
-	)
 	(label "EEPROM_GA1"
 		(at 146.05 67.31 180)
 		(effects
@@ -18177,16 +18187,6 @@
 		)
 		(uuid "80f66984-4a5d-442a-b7b7-7f9b8bef1100")
 	)
-	(label "Cleaner_SPI_1.CS"
-		(at 227.33 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8100a112-0466-449a-bb2a-a87e7cdec85d")
-	)
 	(label "Cleaned_CLK_0.P"
 		(at 300.99 39.37 0)
 		(effects
@@ -18217,15 +18217,15 @@
 		)
 		(uuid "874278cc-9c7a-4a7a-b30f-96bb3a6c4b26")
 	)
-	(label "Cleaner_SPI_0.OE"
-		(at 300.99 46.99 0)
+	(label "Cleaner_SPI_0.CS"
+		(at 300.99 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "893eb426-3a93-45ed-94ad-b2d7905ad0cd")
+		(uuid "89c98304-b883-4de6-941f-1fb278a17bb2")
 	)
 	(label "D_Output12"
 		(at 146.05 48.26 180)
@@ -18297,6 +18297,16 @@
 		)
 		(uuid "95ef89ca-098c-4c92-a183-50383f519335")
 	)
+	(label "Cleaner_~{RST}_0"
+		(at 300.99 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "987e498f-2d59-4843-a2b9-1b2d60bf5ad7")
+	)
 	(label "D_Output7"
 		(at 300.99 64.77 0)
 		(effects
@@ -18337,16 +18347,6 @@
 		)
 		(uuid "ad0614d4-0bed-4a14-a3ec-d999d57bc2e1")
 	)
-	(label "Cleaner_SPI_1.SDI"
-		(at 300.99 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ada11111-1bca-4d8f-8550-d984f6d00174")
-	)
 	(label "D_Output1"
 		(at 146.05 20.32 180)
 		(effects
@@ -18356,26 +18356,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae0d7884-028c-4fd9-9fbd-2e570ac70e27")
-	)
-	(label "Cleaner_~{RST}_0"
-		(at 156.21 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af6f3291-b60d-49c2-82f5-4fd320878fb4")
-	)
-	(label "Cleaner_SPI_0.CS"
-		(at 156.21 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3c01bae-deb2-4d9c-a05d-4180a437aa6d")
 	)
 	(label "EEPROM_GA0"
 		(at 146.05 64.77 180)
@@ -18457,6 +18437,16 @@
 		)
 		(uuid "c5f76e72-8542-49e0-b657-d0d191abf548")
 	)
+	(label "Cleaner_SPI_0.CLK"
+		(at 156.21 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86471a4-36a2-4342-95b6-168d5e89f403")
+	)
 	(label "Cleaner_~{OE}_1"
 		(at 360.68 80.01 0)
 		(effects
@@ -18487,6 +18477,16 @@
 		)
 		(uuid "cdddf2ba-1290-4212-ae4c-85a43a166cc9")
 	)
+	(label "Cleaner_SPI_0.OE"
+		(at 227.33 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf1e9b71-be6d-4297-bd67-9deef03c7d05")
+	)
 	(label "FMC_GBTCLK1.P"
 		(at 140.97 190.5 0)
 		(effects
@@ -18507,7 +18507,7 @@
 		)
 		(uuid "d5839e63-4abb-434b-b0d2-384b3619cceb")
 	)
-	(label "Cleaner_SPI_1.OE"
+	(label "Cleaner_~{RST}_1"
 		(at 300.99 85.09 0)
 		(effects
 			(font
@@ -18515,7 +18515,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "def8dd0a-b71a-4d05-9632-f514e91e2704")
+		(uuid "d6872629-a13f-49ed-b5ae-650c1e07b882")
 	)
 	(label "Cleaner_~{OE}_0"
 		(at 156.21 88.9 0)
@@ -18566,16 +18566,6 @@
 			(justify right bottom)
 		)
 		(uuid "e7207c7c-7c38-4c81-96c1-971227c286a1")
-	)
-	(label "Cleaner_SPI_1.CLK"
-		(at 227.33 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea2a8cf0-9f3c-4500-8044-d6f90c2ae7a0")
 	)
 	(label "Cleaner_SPI_0.CLK"
 		(at 86.36 43.18 180)
@@ -18646,6 +18636,16 @@
 			(justify left bottom)
 		)
 		(uuid "fe6e5b9b-4214-4178-9cb0-ac8902009966")
+	)
+	(label "Cleaner_SPI_0.SDI"
+		(at 156.21 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "febbe8ef-dd02-4ad3-b212-cab677ee7c50")
 	)
 	(label "Cleaner_Fault_1.LOL"
 		(at 86.36 125.73 180)
