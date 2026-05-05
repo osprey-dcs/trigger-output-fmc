@@ -17688,7 +17688,7 @@
 		(uuid "0d9100a2-06c3-48f4-b134-99d4dd2d8ea0")
 	)
 	(label "D_Output12"
-		(at 300.99 69.85 0)
+		(at 300.99 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17828,7 +17828,7 @@
 		(uuid "2838ad92-3024-46f7-a0d3-d50be13fa680")
 	)
 	(label "D_Output4"
-		(at 156.21 58.42 0)
+		(at 300.99 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17888,7 +17888,7 @@
 		(uuid "38ea7f6a-e69b-490e-a405-a5bae02d4d38")
 	)
 	(label "D_Output11"
-		(at 156.21 71.12 0)
+		(at 227.33 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17906,16 +17906,6 @@
 			(justify left bottom)
 		)
 		(uuid "3af63fc6-5261-4e96-a6db-a0c4ea6efca7")
-	)
-	(label "D_Output6"
-		(at 300.99 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c9ac5ac-36ec-4719-9f1e-791acdda339a")
 	)
 	(label "Cleaner_~{OE}_0"
 		(at 86.36 58.42 180)
@@ -18028,7 +18018,7 @@
 		(uuid "4701aaf6-876b-49c6-8324-7c02515586f0")
 	)
 	(label "D_Output14"
-		(at 300.99 77.47 0)
+		(at 156.21 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18068,7 +18058,7 @@
 		(uuid "4fa8c22e-d327-4962-b2ab-392e066901e6")
 	)
 	(label "D_Output9"
-		(at 227.33 68.58 0)
+		(at 300.99 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18108,7 +18098,7 @@
 		(uuid "5e85f194-65fb-45c6-8dae-651deed85d62")
 	)
 	(label "D_Output5"
-		(at 156.21 60.96 0)
+		(at 300.99 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18148,7 +18138,7 @@
 		(uuid "7127b358-6a0f-43ca-9adc-c7734fe559f2")
 	)
 	(label "D_Output8"
-		(at 227.33 66.04 0)
+		(at 300.99 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18258,7 +18248,7 @@
 		(uuid "8d20be6c-b95a-4b57-a71b-c455195fb0c7")
 	)
 	(label "D_Output15"
-		(at 300.99 80.01 0)
+		(at 156.21 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18268,7 +18258,7 @@
 		(uuid "8ecc6327-f5a1-4fdf-9251-2877da69f559")
 	)
 	(label "D_Output13"
-		(at 300.99 72.39 0)
+		(at 300.99 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18307,16 +18297,6 @@
 		)
 		(uuid "987e498f-2d59-4843-a2b9-1b2d60bf5ad7")
 	)
-	(label "D_Output7"
-		(at 300.99 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a477ea0-01f0-4356-af02-f9d14d7b6543")
-	)
 	(label "Cleaner_Fault_0.INTR"
 		(at 86.36 64.77 180)
 		(effects
@@ -18336,6 +18316,16 @@
 			(justify right bottom)
 		)
 		(uuid "a4de065a-0216-43c2-80b8-b504b7ec2c52")
+	)
+	(label "D_Output6"
+		(at 156.21 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e4d9ae-81ad-4a31-9dcf-0f2f9eccdbc2")
 	)
 	(label "D_Output7"
 		(at 146.05 35.56 180)
@@ -18398,7 +18388,7 @@
 		(uuid "ba48dc5f-e1dc-488e-b17d-92db68baeb41")
 	)
 	(label "D_Output10"
-		(at 156.21 68.58 0)
+		(at 227.33 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18456,6 +18446,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb3b6bd8-5bc4-4607-beac-56288662e528")
+	)
+	(label "D_Output7"
+		(at 156.21 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb9775c4-9baf-408b-b59b-8072182662ef")
 	)
 	(label "Cleaned_CLK_0.N"
 		(at 83.82 29.21 180)
