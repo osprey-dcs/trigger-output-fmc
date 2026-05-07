@@ -5,8 +5,8 @@
 	(uuid "1719e569-47c8-4fa0-8523-9c9686ef0dba")
 	(paper "USLetter")
 	(title_block
-		(title "FMC Template")
-		(date "2026-01-26")
+		(title "Trigger Output FMC")
+		(date "2026-05-07")
 		(rev "1.0")
 		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
