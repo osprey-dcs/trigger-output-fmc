@@ -20961,7 +20961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Murata"
 			(at 74.93 238.76 0)
 			(effects
 				(font
@@ -33598,7 +33598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Murata"
 			(at 39.37 237.49 0)
 			(effects
 				(font
