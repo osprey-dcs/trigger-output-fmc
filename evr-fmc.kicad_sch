@@ -31,15 +31,15 @@
 		)
 		(uuid "0b8d05f7-7a93-4de4-9617-e8da18f285d2")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 161.29 46.99) (xy 172.72 46.99)
+			(xy 161.29 50.8) (xy 172.72 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f4156b3-e6da-4563-94b5-76ef4f0c0f81")
+		(uuid "1f7a0c4e-b428-4793-ba02-9eb43b37ba03")
 	)
 	(wire
 		(pts
@@ -51,6 +51,16 @@
 		)
 		(uuid "23feff2b-af6b-499f-b145-7201be85b5a4")
 	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32432331-f0d5-4ef8-a054-62f9926a7ac4")
+	)
 	(bus
 		(pts
 			(xy 161.29 80.01) (xy 172.72 80.01)
@@ -61,6 +71,16 @@
 		)
 		(uuid "3b0e4eba-e9d8-4cff-b3a8-b22e243dbb5c")
 	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4293b85f-7424-4ffd-bc9b-6bb5a1a5f904")
+	)
 	(bus
 		(pts
 			(xy 161.29 67.31) (xy 172.72 67.31)
@@ -70,6 +90,16 @@
 			(type default)
 		)
 		(uuid "46b4b112-b3ea-4136-8336-33c728d4798e")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a06bbae-dae7-4f3d-a441-2dff5e513c5e")
 	)
 	(wire
 		(pts
@@ -210,6 +240,16 @@
 			(type default)
 		)
 		(uuid "bece1a54-885e-48ef-bb0d-98cae82d4b5d")
+	)
+	(bus
+		(pts
+			(xy 161.29 46.99) (xy 172.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c177dfd3-c8e8-43ab-9107-2fb067691053")
 	)
 	(bus
 		(pts
@@ -628,16 +668,6 @@
 				(justify left)
 			)
 		)
-		(pin "D_Output[0..15]" output
-			(at 172.72 46.99 180)
-			(uuid "ba8b75d6-1916-4d6b-9696-7ed8d339e263")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Cleaner_SPI_0{SPI}" bidirectional
 			(at 172.72 80.01 180)
 			(uuid "6d2ebf8e-2c76-44a3-ade4-2d85f4f6b0fd")
@@ -768,6 +798,26 @@
 				(justify left)
 			)
 		)
+		(pin "{Digital_LVDS}" output
+			(at 172.72 46.99 180)
+			(uuid "2a21b922-268b-4d81-9170-a9efb5ace5ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OE_Digital_Outputs" output
+			(at 172.72 50.8 180)
+			(uuid "2cbfb200-3c2e-4adf-85d8-68b565a0b940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
@@ -823,6 +873,16 @@
 		(pin "Switched_4P3V" output
 			(at 105.41 87.63 0)
 			(uuid "cb61278e-09b5-477b-b66f-b63c06b728e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Switched_5P5V" output
+			(at 105.41 83.82 0)
+			(uuid "0746cb3e-f2a3-44d6-be7c-0bd03a60bee1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,9 +1014,29 @@
 				(justify left top)
 			)
 		)
-		(pin "D_Output[0..15]" input
+		(pin "{Digital_LVDS}" input
 			(at 161.29 46.99 0)
-			(uuid "860e3622-ee85-4a04-9f9f-845db0539e9a")
+			(uuid "2155a167-f04d-476c-838f-2827a5d69f91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Switched_5P5V" input
+			(at 123.19 46.99 180)
+			(uuid "263520fe-b9d5-4e7f-83f7-5e690dc38e06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OE" input
+			(at 161.29 50.8 0)
+			(uuid "5ce30dc6-7c26-47f4-9d74-a939884d07f5")
 			(effects
 				(font
 					(size 1.27 1.27)

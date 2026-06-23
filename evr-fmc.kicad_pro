@@ -63,9 +63,14 @@
           "width": 0.14
         },
         {
-          "gap": 0.235,
+          "gap": 0.25,
           "via_gap": 0.3,
-          "width": 0.25
+          "width": 0.15
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.3,
+          "width": 0.21
         }
       ],
       "drc_exclusions": [],
@@ -199,6 +204,7 @@
       "track_widths": [
         0.0,
         0.14,
+        0.15,
         0.175,
         0.2,
         0.25,
@@ -735,67 +741,67 @@
       "FMC"
     ],
     [
-      "0e0eb309-03ed-4cc1-b928-68f91f937116",
+      "8d16482c-d52b-487d-9e5f-3b83070cc1cb",
       "out_buffer0"
     ],
     [
-      "8ac73fd8-28a4-44b3-a19b-2b7a39331c9b",
+      "19485d2d-2adb-4f48-9231-241fb31cdb8d",
       "out_buffer1"
     ],
     [
-      "140f8a59-c0de-49e9-8a67-54b93cfbbdf0",
+      "28fbcd4e-8124-46ec-90a6-4f397eee941c",
       "out_buffer2"
     ],
     [
-      "bd04b534-93f8-4b62-b974-54078de73acd",
+      "a687913e-77d1-4362-8a20-a7b414a3b333",
       "out_buffer3"
     ],
     [
-      "078e80e4-c987-486a-a8a5-29a8f753317d",
+      "3f79e614-68b5-43b3-af2b-77b4a8946ebd",
       "out_buffer4"
     ],
     [
-      "24628614-be1c-46ae-a41d-87b4d1690d5f",
+      "608d4b0d-d648-4e5a-8bd1-cc97554b0ecf",
       "out_buffer5"
     ],
     [
-      "3278417c-7cc5-4abe-840a-949519c7aecb",
+      "97947526-f55f-4902-a5f8-3f2c4cfaee33",
       "out_buffer6"
     ],
     [
-      "e6d9a444-f4d6-40c4-ab17-f76a5f2a9a82",
+      "cedc37d3-9418-40e5-8cb1-c38a9a40f875",
       "out_buffer7"
     ],
     [
-      "059e9589-be37-4d36-9e08-df156d24b4aa",
+      "1c60a10b-0496-4daf-9fc2-2d3ea75078e5",
       "out_buffer8"
     ],
     [
-      "96dcedf7-2577-4011-9ae7-e9db01a6b373",
+      "daacc14d-6d4c-445c-b2db-ede906d2ed0c",
       "out_buffer9"
     ],
     [
-      "0ce0fa40-0a58-4630-94b8-f3d6e17f24a4",
+      "a0956cdd-cb10-4f1b-b1ec-ef7db459ee86",
       "out_buffer10"
     ],
     [
-      "08e81456-4337-42cd-9898-17bd8f6880ea",
+      "66700f77-01cc-4601-b268-229491e4bd10",
       "out_buffer11"
     ],
     [
-      "978f8364-49eb-4723-8132-d79345bde36a",
+      "738c40a1-9a68-4db6-9a3a-36202385f665",
       "out_buffer12"
     ],
     [
-      "bae5218c-5922-46a8-9440-1740d4702813",
+      "4e8f98ef-fa62-42f5-b3d1-4c49d19c8c0a",
       "out_buffer13"
     ],
     [
-      "d635b37a-67a8-44bd-8b3a-bd64a84d66bd",
+      "092e3d15-0947-47b7-b00d-3a0932f1fd42",
       "out_buffer14"
     ],
     [
-      "c97b6566-d851-4662-98d8-20823a5a3a95",
+      "83c69cea-e937-4f43-91dd-e5dd30212f2d",
       "out_buffer15"
     ]
   ],
