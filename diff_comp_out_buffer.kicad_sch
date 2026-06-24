@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "5a7ecf30-b794-4d3e-b11d-f744a18ee343")
+	(uuid "752f37ff-c00c-485f-92f1-a3a2a26d6339")
 	(paper "A4")
 	(title_block
 		(title "Trigger Output FMC")
