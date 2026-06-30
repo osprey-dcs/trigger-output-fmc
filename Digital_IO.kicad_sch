@@ -5157,7 +5157,7 @@
 			(uuid "3517d3b8-d687-4d52-9a97-47d81ec7fec6")
 		)
 		(instances
-			(project ""
+			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
 					(reference "#PWR01")
 					(unit 1)
@@ -5959,7 +5959,7 @@
 			(uuid "f14e20f4-8305-4fff-9ebe-25e2ef29b952")
 		)
 		(instances
-			(project ""
+			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
 					(reference "U45")
 					(unit 1)
