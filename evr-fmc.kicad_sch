@@ -416,7 +416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "level_shift.kicad_sch"
+		(property "Sheetfile" "Level_Shift.kicad_sch"
 			(at 130.81 99.6446 0)
 			(effects
 				(font
