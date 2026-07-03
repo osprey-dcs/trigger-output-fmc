@@ -5,8 +5,7 @@ global:
 preflight:
   check_zone_fills: true
   erc: true
-  # DRC disabled while artwork unfinished
-  drc: false
+  drc: true
 
 outputs:
   - name: Info
