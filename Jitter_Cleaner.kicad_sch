@@ -8497,7 +8497,7 @@
 		)
 		(uuid "cb4f509d-f70d-4b25-b89c-3376c71b7bd6")
 	)
-	(hierarchical_label "Switched_4P3V"
+	(hierarchical_label "Switched_5P45V"
 		(shape input)
 		(at 55.88 50.8 180)
 		(effects
