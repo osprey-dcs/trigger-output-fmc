@@ -521,13 +521,134 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "LongDiff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Digital IO/D_Output0.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output0.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output1.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output1.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output10.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output10.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output11.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output11.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output12.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output12.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output13.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output13.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output14.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output14.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output15.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output15.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output2.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output2.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output3.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output3.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output4.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output4.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output5.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output5.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output6.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output6.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output7.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output7.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output8.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output8.P": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output9.N": [
+        "LongDiff"
+      ],
+      "/Digital IO/D_Output9.P": [
+        "LongDiff"
+      ],
+      "/FMC/FMC_GBTCLK0.N": [
+        "LongDiff"
+      ],
+      "/FMC/FMC_GBTCLK0.P": [
+        "LongDiff"
+      ],
+      "/FMC/FMC_GBTCLK1.N": [
+        "LongDiff"
+      ],
+      "/FMC/FMC_GBTCLK1.P": [
+        "LongDiff"
+      ],
+      "/FMC/Recovered_CLK_0.N": [
+        "LongDiff"
+      ],
+      "/FMC/Recovered_CLK_0.P": [
+        "LongDiff"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
