@@ -1257,6 +1257,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "13-RC0603FR-134K75LDKR-ND"
+			(at 105.41 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f735cd11-f625-428b-ad40-ba6435d0d9b8")
 		)
@@ -1336,6 +1345,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-11.5KHRDKR-ND"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -1496,6 +1514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "AT24C64D-SSHM-TDKR-ND"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11b51f55-f657-45ce-ba52-dbd007192e25")
 		)
@@ -1574,7 +1601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -1593,6 +1620,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5241-6-ND"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -1751,6 +1787,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "13-RC0603FR-134K75LDKR-ND"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0272a6f-6881-44ca-84f6-729a203ee89b")
 		)
@@ -1836,6 +1881,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "13-RC0603FR-134K75LDKR-ND"
+			(at 121.92 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb3ba2f9-a94d-4c48-9f77-d275c0457c62")
 		)
@@ -1914,6 +1968,15 @@
 		)
 		(property "Manufacturer" "Yageo"
 			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0603FR-134K75LDKR-ND"
+			(at 115.57 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,6 +2071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "952-2261-ND"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "243a6b7c-d3c5-48aa-b0a8-79f9caf7ac88")
 		)
@@ -2085,6 +2157,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0603FR-134K75LDKR-ND"
 			(at 175.26 93.98 0)
 			(effects
 				(font

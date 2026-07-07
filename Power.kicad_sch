@@ -1568,7 +1568,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+		(property "Description" "IC REG BUCK ADJ 3A SOT23"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-38434-6-ND"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS563200DDCT"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -1650,7 +1677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
+		(property "Description" "CAP CER 22UF 16V X5R 0805"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1659,7 +1686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
+		(property "MPN" "CL21A226MOCLRNC"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1668,7 +1695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 22UF 25V X5R 0805"
+		(property "Manufacturer" "Samsung"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1677,25 +1704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Designator" "        C3"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86816"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
+		(property "Digikey" "1276-6780-6-ND"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -1729,7 +1738,7 @@
 		(dnp no)
 		(uuid "205d6a0d-f042-44e8-83c9-8752b75aa73b")
 		(property "Reference" "C52"
-			(at 142.748 85.344 90)
+			(at 147.574 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1746,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 145.034 89.154 90)
+			(at 148.59 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,34 +1789,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 0.1UF 50V X7R 0603"
-			(at 144.78 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    C5"
-			(at 144.78 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3011652"
-			(at 144.78 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 144.78 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-8020-6-ND"
 			(at 144.78 86.36 90)
 			(effects
 				(font
@@ -2009,7 +2000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
+		(property "Description" "CAP CER 22UF 16V X5R 0805"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -2018,7 +2009,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
+		(property "MPN" "CL21A226MOCLRNC"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -2027,7 +2018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 22UF 25V X5R 0805"
+		(property "Manufacturer" "Samsung"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -2036,25 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Designator" "        C4"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86816"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
+		(property "Digikey" "1276-6780-6-ND"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -2142,34 +2115,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C2"
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -2257,34 +2212,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C1"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -2418,7 +2355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "FIXED IND 3.3UH 5A 21 MOHM SMD"
 			(at 158.75 83.82 0)
 			(effects
 				(font
@@ -2427,34 +2364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "FIXED IND 4.7UH 4.5A 26 MOHM SMD"
-			(at 158.75 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    L1"
-			(at 158.75 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2044594"
-			(at 158.75 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SRN6045TA-4R7M"
+		(property "MPN" "SRN6045TA-3R3Y"
 			(at 158.75 83.82 90)
 			(effects
 				(font
@@ -2464,6 +2374,15 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
+			(at 158.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SRN6045TA-3R3YDKR-ND"
 			(at 158.75 83.82 90)
 			(effects
 				(font
@@ -2673,33 +2592,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "Red PC Test Point, Miniature Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    TP3"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199900"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "5000"
 			(at 189.23 81.28 0)
 			(effects
@@ -2710,6 +2602,15 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-5000-ND"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -2784,33 +2685,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "RES 10K OHM 1% 1/10W 0603"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    R2"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C98220"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 165.1 99.06 0)
 			(effects
@@ -2821,6 +2695,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRDKR-ND"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -2980,6 +2863,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "P0.0GDKR-ND"
+			(at 83.82 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7b41a35-e9b3-456b-9de2-fda63299cee0")
 		)
@@ -3040,7 +2932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47K OHM 1% 1/10W 0603"
+		(property "Description" "RES 61.9K OHM 1% 1/10W 0603"
 			(at 165.1 88.9 0)
 			(effects
 				(font
@@ -3049,34 +2941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "RES 47K OHM 1% 1/10W 0603"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    R1"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105579"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0747KL"
+		(property "MPN" "RC0603FR-0761K9L"
 			(at 165.1 88.9 0)
 			(effects
 				(font
@@ -3086,6 +2951,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-61.9KHRDKR-ND"
 			(at 165.1 88.9 0)
 			(effects
 				(font

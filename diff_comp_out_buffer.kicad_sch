@@ -1391,7 +1391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g126.pdf"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -1400,7 +1400,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Bus Buffer Gate"
+		(property "Description" "IC BUFF 1.65V 8-VSSOP"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-32321-6-ND"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G126DCUT"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -1772,7 +1799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 109.728 83.058 0)
 			(effects
 				(font
@@ -1798,7 +1825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -1807,7 +1834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-1935-2-ND"
+		(property "Digikey" "490-8020-6-ND"
 			(at 106.68 81.28 90)
 			(effects
 				(font
@@ -1816,7 +1843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNWC"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 106.68 81.28 90)
 			(effects
 				(font
@@ -1825,7 +1852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 106.68 81.28 90)
 			(effects
 				(font
@@ -1944,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3601.pdf"
 			(at 128.27 97.79 0)
 			(effects
 				(font
@@ -1953,7 +1980,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC COMPARATOR 1CH SOT-23-5"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-TLV3601DBVRDKR-ND"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV3601DBVR"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 128.27 102.87 0)
 			(effects
 				(font
@@ -2370,6 +2424,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-100LRDKR-ND"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "971cc8fd-254f-4eb5-9858-d651d551acf2")
 		)
@@ -2488,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 88.7 OHM 1% 1/4W 0805"
+		(property "Description" "RES SMD 88.7 OHM 1% 1/8W 0805"
 			(at 189.23 105.41 0)
 			(effects
 				(font
@@ -2508,6 +2571,15 @@
 		)
 		(property "Manufacturer" "Vishay Dale"
 			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-88.7CDKR-ND"
+			(at 189.23 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 145.288 83.058 0)
 			(effects
 				(font
@@ -2634,7 +2706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -2643,7 +2715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-1935-2-ND"
+		(property "Digikey" "490-8020-6-ND"
 			(at 142.24 81.28 90)
 			(effects
 				(font
@@ -2652,7 +2724,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNWC"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 142.24 81.28 90)
 			(effects
 				(font
@@ -2661,7 +2733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 142.24 81.28 90)
 			(effects
 				(font
@@ -2788,7 +2860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 88.7 OHM 1% 1/4W 0805"
+		(property "Description" "RES SMD 88.7 OHM 1% 1/8W 0805"
 			(at 189.23 100.33 0)
 			(effects
 				(font
@@ -2808,6 +2880,15 @@
 		)
 		(property "Manufacturer" "Vishay Dale"
 			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-88.7CDKR-ND"
+			(at 189.23 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)

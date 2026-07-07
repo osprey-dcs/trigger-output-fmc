@@ -8580,6 +8580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75da57dd-a41f-4a76-baa7-d640eb2f2bfe")
 		)
@@ -8666,6 +8675,15 @@
 			)
 		)
 		(property "Manufacturer" "Skyworks Solutions Inc."
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "336-4800-ND"
 			(at 130.81 120.65 0)
 			(effects
 				(font
@@ -8894,6 +8912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3157-TCM2-43X+DKR-ND"
+			(at 184.15 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d13d519e-cd65-40b4-9c6e-0a770dd2bd03")
 		)
@@ -9066,6 +9093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9396aaf8-b7e7-4566-b859-9a57203f6274")
 		)
@@ -9150,6 +9186,15 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RG16P100BDKR-ND"
 			(at 143.51 208.28 0)
 			(effects
 				(font
@@ -9379,34 +9424,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 121.92 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 121.92 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 121.92 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -9507,6 +9534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 153.67 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9341ad94-ed7a-402a-a4a3-e265577bdf4f")
 		)
@@ -9590,6 +9626,15 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 198.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-50413-6-ND"
 			(at 198.12 53.34 0)
 			(effects
 				(font
@@ -9699,6 +9744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RG16P100BDKR-ND"
+			(at 143.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f22bc65-009b-4ff6-96bc-ceec71e7671d")
 		)
@@ -9791,6 +9845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 153.67 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eaee864f-d748-47c4-a4a9-69ff4a49b2e3")
 		)
@@ -9874,6 +9937,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
 			(at 186.69 106.68 0)
 			(effects
 				(font
@@ -9973,6 +10045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 95.25 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4059566-0a33-4f0f-9b7e-d033348f8696")
 		)
@@ -10055,6 +10136,15 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 63.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "P0.0GDKR-ND"
 			(at 63.5 50.8 90)
 			(effects
 				(font
@@ -10293,6 +10383,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "748feef6-5811-40d6-99d3-411025f3d22e")
 		)
@@ -10437,33 +10536,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "Red PC Test Point, Miniature Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 121.92 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    TP4"
-			(at 121.92 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199900"
-			(at 121.92 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "5000"
 			(at 121.92 44.45 0)
 			(effects
@@ -10474,6 +10546,15 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-5000-ND"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -10638,6 +10719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 196.85 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99519c34-10fa-44ce-83f3-c10ccc02085a")
 		)
@@ -10723,6 +10813,15 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 153.67 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,6 +11267,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3157-TCM2-43X+DKR-ND"
+			(at 184.15 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c39563b5-7b97-4ead-955f-8f923d3a10c4")
 		)
@@ -11263,34 +11371,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C9"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -11459,6 +11549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbad3ff0-9b19-4b03-94b7-05fff9e5ae02")
 		)
@@ -11603,33 +11702,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "Red PC Test Point, Miniature Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "    TP5"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199900"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "5000"
 			(at 226.06 48.26 0)
 			(effects
@@ -11640,6 +11712,15 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-5000-ND"
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -11988,7 +12069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 176.53 57.15 0)
 			(effects
 				(font
@@ -12006,34 +12087,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 1UF 16V X7R 0603"
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C8"
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C161212"
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5241-6-ND"
 			(at 176.53 57.15 0)
 			(effects
 				(font
@@ -12193,34 +12256,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -12282,7 +12327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1917/CX3225SB48000D0FPJC1.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8910/kyocera_09112019_CX3225SB.pdf"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -12310,6 +12355,15 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "478-CX3225SB48000D0FPJC1DKR-ND"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -12483,6 +12537,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 196.85 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56544429-26af-48b4-856c-2a23559f5415")
 		)
@@ -12636,6 +12699,15 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 95.25 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12802,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "P0.0GDKR-ND"
+			(at 170.18 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d59bf97-f855-4999-aaf4-b4fe6425f1ea")
 		)
@@ -12885,6 +12966,15 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-50414-6-ND"
 			(at 93.98 53.34 0)
 			(effects
 				(font
@@ -13174,7 +13264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -13192,34 +13282,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 1UF 16V X7R 0603"
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C6"
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C161212"
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5241-6-ND"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -13311,6 +13383,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -13479,6 +13560,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a93b2278-df17-4759-90ac-26c4e00e40af")
 		)
@@ -13639,6 +13729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-100LRDKR-ND"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "057d8816-b600-43b2-9350-dad5e628bf32")
 		)
@@ -13731,6 +13830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 153.67 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79696a88-7274-434a-ba03-2187bd371457")
 		)
@@ -13814,6 +13922,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -13913,6 +14030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8195ff5b-184a-4189-8a33-5574c76a42c7")
 		)
@@ -13995,34 +14121,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 120.65 107.95 0)
 			(effects
 				(font
@@ -14122,6 +14230,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-14514-6-ND"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f1c5033-7877-45ae-b311-990637d0af38")
 		)
@@ -14205,6 +14322,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-14514-6-ND"
 			(at 138.43 107.95 0)
 			(effects
 				(font

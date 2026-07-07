@@ -4808,6 +4808,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21954e37-f55a-41b4-86a8-288cb0154163")
 		)
@@ -4952,34 +4961,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -5139,6 +5130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 275.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1fcf80-e335-46ef-b363-3fecd6d01017")
 		)
@@ -5217,6 +5217,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 213.36 59.69 0)
 			(effects
 				(font
@@ -5311,6 +5320,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 275.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b4f5c2e-893b-456a-871d-6a8ae6c50ba4")
 		)
@@ -5389,6 +5407,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 213.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 213.36 41.91 0)
 			(effects
 				(font
@@ -5482,6 +5509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "P0.0GDKR-ND"
+			(at 46.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8cdd24f-6e23-4fe8-830c-2f9366a5d0fc")
 		)
@@ -5560,6 +5596,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 213.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 213.36 148.59 0)
 			(effects
 				(font
@@ -5786,6 +5831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88be95c5-26b1-4b33-ad1a-ca48d22087f6")
 		)
@@ -5911,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10.7K OHM 1% 1/16W 0402"
 			(at 80.01 135.89 0)
 			(effects
 				(font
@@ -5920,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-1310K7L"
 			(at 80.01 135.89 90)
 			(effects
 				(font
@@ -5930,6 +5984,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 80.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0402FR-1310K7LDKR-ND"
 			(at 80.01 135.89 0)
 			(effects
 				(font
@@ -5996,7 +6059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10.7K OHM 1% 1/16W 0402"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -6005,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-1310K7L"
 			(at 82.55 167.64 90)
 			(effects
 				(font
@@ -6015,6 +6078,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0402FR-1310K7LDKR-ND"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -6102,34 +6174,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 92.71 163.83 0)
 			(effects
 				(font
@@ -6281,6 +6335,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 275.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 275.59 114.3 0)
 			(effects
 				(font
@@ -6498,34 +6561,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 116.84 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 116.84 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 116.84 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 116.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 116.84 163.83 0)
 			(effects
 				(font
@@ -6593,7 +6638,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mA Low-Dropout Linear Regulator, Adjustable Output, WSON-6"
+		(property "Description" "IC REG LINEAR POS ADJ 1A 6-WSON"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-TLV75901PDRVRDKR-ND"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV75901PDRVR"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 68.58 129.54 0)
 			(effects
 				(font
@@ -6761,34 +6833,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 92.71 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 92.71 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 92.71 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 92.71 132.08 0)
 			(effects
 				(font
@@ -6855,7 +6909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 86.6K OHM 1% 1/16W 0402"
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -6864,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0786K6L"
 			(at 82.55 161.29 90)
 			(effects
 				(font
@@ -6874,6 +6928,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "YAG3249DKR-ND"
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -6961,34 +7024,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 105.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 105.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -7055,7 +7100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 86.6K OHM 1% 1/16W 0402"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -7064,7 +7109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0786K6L"
 			(at 80.01 129.54 90)
 			(effects
 				(font
@@ -7074,6 +7119,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "YAG3249DKR-ND"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -7233,6 +7287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 275.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f96ef03d-aca7-45e2-9603-bdbbf3df08cf")
 		)
@@ -7319,6 +7382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51a44fbd-21dc-476d-a11d-ec28bb4928d6")
 		)
@@ -7397,6 +7469,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 275.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 275.59 96.52 0)
 			(effects
 				(font
@@ -7533,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -7551,34 +7632,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 1UF 16V X7R 0603"
-			(at 55.88 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C6"
-			(at 55.88 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C161212"
-			(at 55.88 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5241-6-ND"
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -7673,6 +7736,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d94940f2-fde6-4204-ab52-ef612c9c6e49")
 		)
@@ -7734,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 54.61 133.35 0)
 			(effects
 				(font
@@ -7752,34 +7824,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 1UF 16V X7R 0603"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C6"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C161212"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5241-6-ND"
 			(at 54.61 133.35 0)
 			(effects
 				(font
@@ -7866,6 +7920,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 275.59 43.18 0)
 			(effects
 				(font
@@ -7999,7 +8062,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mA Low-Dropout Linear Regulator, Adjustable Output, WSON-6"
+		(property "Description" "IC REG LINEAR POS ADJ 1A 6-WSON"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-TLV75901PDRVRDKR-ND"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV75901PDRVR"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 69.85 161.29 0)
 			(effects
 				(font
@@ -8108,6 +8198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "P0.0GDKR-ND"
+			(at 44.45 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4a11621-9214-4164-9878-073592f04fde")
 		)
@@ -8186,6 +8285,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 275.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 275.59 132.08 0)
 			(effects
 				(font
@@ -8280,6 +8388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM10617-ND"
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3e9eb15-d379-4bcc-8153-dafc9007c36f")
 		)
@@ -8359,34 +8476,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "CAP CER 10UF 25V X5R 0805"
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designator" "        C7"
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84416"
-			(at 105.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
+			(at 105.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5523-6-ND"
 			(at 105.41 163.83 0)
 			(effects
 				(font
@@ -8603,6 +8702,15 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
+			(at 275.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM10617-ND"
 			(at 275.59 25.4 0)
 			(effects
 				(font
