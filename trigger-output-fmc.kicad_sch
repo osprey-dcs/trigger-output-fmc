@@ -612,7 +612,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "24")
 				)
@@ -704,7 +704,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "3")
 				)
@@ -796,7 +796,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "2")
 				)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "7")
 				)
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "6")
 				)
@@ -1191,7 +1191,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "5")
 				)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "4")
 				)
