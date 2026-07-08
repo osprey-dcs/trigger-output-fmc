@@ -1354,6 +1354,68 @@
 		)
 		(uuid "fc37dcf9-1a17-4aab-8ff9-dd147716bb4c")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 100.33 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a16e2312-25f1-4edd-8ca4-15f938b089ef")
+		(property "Netclass" "LongDiff"
+			(at 101.0285 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -15.24 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3388790-6cba-4db5-b950-3ea0911fd777")
+		(property "Netclass" "LongDiff"
+			(at 101.0285 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "evr-fmc:SN74LVC2G126")
 		(at 171.45 102.87 0)

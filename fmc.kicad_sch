@@ -20449,6 +20449,192 @@
 		)
 		(uuid "fde25dd5-64be-4a2d-8858-1c8ec2b12794")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 157.48 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "364f393b-ef10-478d-98d1-33a8d24761a6")
+		(property "Netclass" "LongDiff"
+			(at 158.1785 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 157.48 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fa9fb19-3772-406f-a7dd-3c5bf0654ef7")
+		(property "Netclass" "LongDiff"
+			(at 158.1785 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4096cb3e-0dc0-4afe-943b-8191dc9940a4")
+		(property "Netclass" "LongDiff"
+			(at 247.0785 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.11 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b612ce05-ed2b-4b14-abf8-a6bb31fcb04a")
+		(property "Netclass" "LongDiff"
+			(at 245.8085 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 168.91 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccae52c8-2639-41fb-9b7b-1f35e0df63b3")
+		(property "Netclass" "LongDiff"
+			(at 247.0785 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.11 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb3a14d-a797-43d4-8fe4-a968f72f97a5")
+		(property "Netclass" "LongDiff"
+			(at 245.8085 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 168.91 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 34.29 219.71 0)
@@ -27873,7 +28059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_2.7mm_Pad_3.1mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 226.06 0)
 			(effects
 				(font
@@ -33480,7 +33666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_2.7mm_Pad_3.1mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 237.49 0)
 			(effects
 				(font
@@ -37398,7 +37584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 203.2 0)
 			(effects
 				(font
