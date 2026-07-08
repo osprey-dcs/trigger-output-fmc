@@ -10,9 +10,9 @@ This repository contains KiCad 9 design files.
 
 - [Data sheet](datasheet.md)
 - [Current generated](https://osprey-dcs.github.io/trigger-output-fmc/)
-  - [Schematic](https://osprey-dcs.github.io/trigger-output-fmc/rf-input-fmc-schematic.pdf)
-  - [BoM](https://osprey-dcs.github.io/trigger-output-fmc/rf-input-fmc-bom.csv)
-  - [STeP model](https://osprey-dcs.github.io/trigger-output-fmc/3D/rf-input-fmc-3D.step)
+  - [Schematic](https://osprey-dcs.github.io/trigger-output-fmc/trigger-output-fmc-schematic.pdf)
+  - [BoM](https://osprey-dcs.github.io/trigger-output-fmc/trigger-output-fmc-bom.csv)
+  - [STeP model](https://osprey-dcs.github.io/trigger-output-fmc/3D/trigger-output-fmc-3D.step)
 
 ## Block Diagram
 
