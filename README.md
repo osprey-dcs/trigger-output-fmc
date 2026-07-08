@@ -9,10 +9,10 @@ This design is Open Hardware created by Osprey DCS and published under the terms
 This repository contains KiCad 9 design files.
 
 - [Data sheet](datasheet.md)
-- [Current generated](https://mdavidsaver.github.io/rf-input-fmc/)
-  - [Schematic](https://mdavidsaver.github.io/rf-input-fmc/rf-input-fmc-schematic.pdf)
-  - [BoM](https://mdavidsaver.github.io/rf-input-fmc/rf-input-fmc-bom.csv)
-  - [STeP model](https://mdavidsaver.github.io/rf-input-fmc/3D/rf-input-fmc-3D.step)
+- [Current generated](https://osprey-dcs.github.io/trigger-output-fmc/)
+  - [Schematic](https://osprey-dcs.github.io/trigger-output-fmc/rf-input-fmc-schematic.pdf)
+  - [BoM](https://osprey-dcs.github.io/trigger-output-fmc/rf-input-fmc-bom.csv)
+  - [STeP model](https://osprey-dcs.github.io/trigger-output-fmc/3D/rf-input-fmc-3D.step)
 
 ## Block Diagram
 
