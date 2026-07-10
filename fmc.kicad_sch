@@ -20588,15 +20588,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8730-ND"
-			(at 240.03 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d48")
 		)
@@ -21943,15 +21934,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-6780-6-ND"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "92b85c82-b4e5-4a0c-b35f-e226f07b9189")
 		)
@@ -22105,15 +22087,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 389.89 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d00187db-6f9a-45ed-b3b0-7be962252552")
 		)
@@ -22193,15 +22166,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 314.96 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-100KHRDKR-ND"
 			(at 314.96 208.28 0)
 			(effects
 				(font
@@ -22366,15 +22330,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5000-ND"
-			(at 34.29 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b003984c-d31b-429d-b0a1-880ae94bb68c")
 		)
@@ -22450,15 +22405,6 @@
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 76.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "P0.0GDKR-ND"
-			(at 76.2 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22744,15 +22690,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 350.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 350.52 127 0)
 			(effects
 				(font
@@ -24044,15 +23981,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8730-ND"
-			(at 415.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d4a")
 		)
@@ -25336,15 +25264,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8730-ND"
-			(at 285.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d4b")
 		)
@@ -26619,15 +26538,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 209.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -27985,15 +27895,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 323.85 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ce339002-ac1a-4b48-b2dc-e58f34917b06")
 		)
@@ -28344,15 +28245,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5000-ND"
-			(at 34.29 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e681caae-08f3-48c2-bb6d-9a75a530ea70")
 		)
@@ -28431,15 +28323,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 215.9 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 215.9 242.57 0)
 			(effects
 				(font
@@ -29730,15 +29613,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-8.20KHRDKR-ND"
-			(at 406.4 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8f764990-f163-4e03-a7da-e4793e7690b9")
 		)
@@ -29892,15 +29766,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 323.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "be6e9285-451b-4750-90cd-83e954f9d353")
 		)
@@ -30046,15 +29911,6 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 71.12 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "36-5001-ND"
 			(at 71.12 181.61 0)
 			(effects
 				(font
@@ -30342,15 +30198,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 374.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fccf39a2-4e55-4758-91c1-44cc85a5e9de")
 		)
@@ -30430,15 +30277,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 341.63 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-100KHRDKR-ND"
 			(at 341.63 208.28 0)
 			(effects
 				(font
@@ -30661,15 +30499,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 295.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 295.91 243.84 0)
 			(effects
 				(font
@@ -32234,15 +32063,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8730-ND"
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d4f")
 		)
@@ -33723,15 +33543,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8730-ND"
-			(at 267.97 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "C1"
 			(uuid "426e2dcc-0f14-4255-9a98-ed7cf4c82d50")
 		)
@@ -35078,15 +34889,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-6780-6-ND"
-			(at 34.29 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c81b5818-d7e9-45dc-ac18-4ea3657b5bae")
 		)
@@ -35240,15 +35042,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "FDN335NDKR-ND"
-			(at 346.71 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f294def2-ecf0-4636-8cce-bd4da9f386db")
 		)
@@ -35340,15 +35133,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 349.25 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1219bc95-2713-44cf-9d21-99bfd26c6430")
 		)
@@ -35429,15 +35213,6 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 372.11 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "FDN335NDKR-ND"
 			(at 372.11 201.93 0)
 			(effects
 				(font
@@ -35602,15 +35377,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 389.89 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "479a0bb7-f994-4c40-9f09-675d305d5b55")
 		)
@@ -35764,15 +35530,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 349.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6192bd08-2271-470d-9f60-f9bd5a1e77bc")
 		)
@@ -35854,15 +35611,6 @@
 		)
 		(property "Manufacturer" "Kingbright"
 			(at 374.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 374.65 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35958,15 +35706,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 406.4 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c980b1e7-2922-4ee0-962a-c9bcfad94c44")
 		)
@@ -36048,15 +35787,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 191.77 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 191.77 242.57 0)
 			(effects
 				(font
@@ -37346,15 +37076,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-6780-6-ND"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21ae4690-33cd-412a-a839-fb55cc6a8698")
 		)
@@ -37581,15 +37302,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "P0.0GDKR-ND"
-			(at 39.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3da097b7-b5d3-4b5d-bdae-32fcd6781a02")
 		)
@@ -37670,15 +37382,6 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 321.31 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "FDN335NDKR-ND"
 			(at 321.31 201.93 0)
 			(effects
 				(font
@@ -37770,15 +37473,6 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 34.29 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "36-5000-ND"
 			(at 34.29 231.14 0)
 			(effects
 				(font
@@ -37928,15 +37622,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 365.76 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-100KHRDKR-ND"
 			(at 365.76 208.28 0)
 			(effects
 				(font

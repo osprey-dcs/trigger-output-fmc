@@ -6065,15 +6065,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "040a1a9b-2a3c-4a4e-8dd9-6174802db540")
 		)
@@ -6357,15 +6348,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.75KLDKR-ND"
-			(at 168.91 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4227b60b-d720-4086-97fa-b5347a4d6e0f")
 		)
@@ -6446,15 +6428,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 140.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "296-18056-6-ND"
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -6659,15 +6632,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 304.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "06263585-9ab8-43d1-b579-62761acd8279")
 		)
@@ -6748,15 +6712,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 284.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "490-14514-6-ND"
 			(at 284.48 41.91 0)
 			(effects
 				(font
@@ -6985,15 +6940,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a65e4630-c4c8-4a13-9738-51109b58aaeb")
 		)
@@ -7138,15 +7084,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 165.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -7307,15 +7244,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.75KLDKR-ND"
-			(at 190.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7df869a1-a8a1-44c9-81cf-8bb86b78ea8e")
 		)
@@ -7396,15 +7324,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 303.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "296-18593-6-ND"
 			(at 303.53 119.38 0)
 			(effects
 				(font
@@ -7567,15 +7486,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 306.07 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f664d61b-63a6-4d25-bb61-40380f20ebca")
 		)
@@ -7653,15 +7563,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 177.8 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 177.8 170.18 0)
 			(effects
 				(font
@@ -7956,15 +7857,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "296-18056-6-ND"
-			(at 306.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a6301317-9ef1-41b9-927a-77cb86c888e7")
 		)
@@ -8085,15 +7977,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 330.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 330.2 127 0)
 			(effects
 				(font
@@ -8256,15 +8139,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6775f2b1-dd20-450e-94bb-8a87709c61c0")
 		)
@@ -8345,15 +8219,6 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 138.43 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "296-18593-6-ND"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -8516,15 +8381,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14514-6-ND"
-			(at 283.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "25ce79fd-b743-4b19-b6e6-25b2ad31aecc")
 		)
@@ -8602,15 +8458,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 342.9 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 342.9 168.91 0)
 			(effects
 				(font
@@ -8705,15 +8552,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.75KLDKR-ND"
-			(at 355.6 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "14bad46d-ad3a-484a-8e9e-2577b220651c")
 		)
@@ -8799,15 +8637,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.75KLDKR-ND"
-			(at 342.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f5ae3280-a488-41e6-8f42-2f43e3dec85b")
 		)
@@ -8885,15 +8714,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 177.8 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -9177,15 +8997,6 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 334.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4.75KLDKR-ND"
 			(at 334.01 127 0)
 			(effects
 				(font
@@ -9604,15 +9415,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 139.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "490-14514-6-ND"
 			(at 139.7 115.57 0)
 			(effects
 				(font
