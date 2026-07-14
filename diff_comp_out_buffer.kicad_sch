@@ -1520,7 +1520,7 @@
 			(uuid "c75b1da7-078a-442a-9762-ed7d8461749d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "U41")
 					(unit 1)
@@ -1646,7 +1646,7 @@
 			(uuid "cea0d55c-d251-45d1-99d5-beb0958a3fd4")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "#PWR0142")
 					(unit 1)
@@ -1898,7 +1898,7 @@
 			(uuid "83ac1ca6-340a-4aaf-8458-837cb8bdfbff")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "#PWR0141")
 					(unit 1)
@@ -2044,7 +2044,7 @@
 			(uuid "0550c52a-5879-45e9-80a5-b279cecd8a98")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "C92")
 					(unit 1)
@@ -2345,7 +2345,7 @@
 			(uuid "8d77c94e-b037-4fba-ac9d-3fcb5a137f4e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "U40")
 					(unit 1)
@@ -2597,7 +2597,7 @@
 			(uuid "aa18d113-bcbc-4dba-8119-4181e6ca66d2")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "#PWR0174")
 					(unit 1)
@@ -2723,7 +2723,7 @@
 			(uuid "b5ccbbeb-0a42-4f6d-add7-5371b931379d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "#PWR0143")
 					(unit 1)
@@ -2870,7 +2870,7 @@
 			(uuid "f64fd5f1-2c76-4334-adcf-a490b9bc2aa5")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "R57")
 					(unit 1)
@@ -3015,7 +3015,7 @@
 			(uuid "052a91bc-72fe-4cc4-b41c-c266f75f873e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "R59")
 					(unit 1)
@@ -3161,7 +3161,7 @@
 			(uuid "40199b94-3200-46aa-b564-f1112639ac79")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "C93")
 					(unit 1)
@@ -3306,7 +3306,7 @@
 			(uuid "38da6360-c0c7-4e1a-9fbf-414a3e5a19bc")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/092e3d15-0947-47b7-b00d-3a0932f1fd42"
 					(reference "R58")
 					(unit 1)
