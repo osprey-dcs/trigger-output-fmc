@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Value" "SRN6045TA-3R3M"
+		(property "Value" "SRN6045TA-3R3Y"
 			(at 158.75 81.28 90)
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf"
 			(at 158.75 83.82 0)
 			(effects
 				(font
