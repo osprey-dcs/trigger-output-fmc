@@ -5584,7 +5584,7 @@
 		(uuid "ebc315a2-3b3c-4659-b713-390cb10cb6cc")
 	)
 	(global_label "VADJ"
-		(shape output)
+		(shape input)
 		(at 146.05 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5626,7 +5626,7 @@
 		)
 	)
 	(global_label "VDD3P3V"
-		(shape output)
+		(shape input)
 		(at 281.94 100.33 0)
 		(fields_autoplaced yes)
 		(effects
