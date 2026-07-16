@@ -60,11 +60,6 @@
         {
           "gap": 0.25,
           "via_gap": 0.3,
-          "width": 0.14
-        },
-        {
-          "gap": 0.25,
-          "via_gap": 0.3,
           "width": 0.15
         },
         {
@@ -203,7 +198,6 @@
       ],
       "track_widths": [
         0.0,
-        0.14,
         0.15,
         0.175,
         0.2,
@@ -212,7 +206,8 @@
         0.5,
         0.8,
         1.0,
-        2.5
+        1.45,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -246,8 +241,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false

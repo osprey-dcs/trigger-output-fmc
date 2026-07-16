@@ -2634,28 +2634,12 @@
 		(uuid "fdb3d52e-bdfb-4c9c-a75c-c3ab5853c151")
 	)
 	(no_connect
-		(at 306.07 172.72)
-		(uuid "6fe549d9-7334-4252-bd15-bb6c5ee96bee")
-	)
-	(no_connect
-		(at 306.07 167.64)
-		(uuid "8d2f3f8b-2031-4faf-9543-618a3660f039")
-	)
-	(no_connect
 		(at 115.57 153.67)
 		(uuid "96363c35-77dc-4020-baf4-a58c740e187d")
 	)
 	(no_connect
-		(at 140.97 153.67)
-		(uuid "aff467f0-b743-46c8-861e-9b7a53453bb9")
-	)
-	(no_connect
 		(at 280.67 172.72)
 		(uuid "d556a205-231c-4c98-883c-0257f705e27c")
-	)
-	(no_connect
-		(at 306.07 152.4)
-		(uuid "e208c49c-66a2-4a67-bc17-bb2798bcd3c0")
 	)
 	(no_connect
 		(at 280.67 152.4)
@@ -3493,6 +3477,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 152.4) (xy 311.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f6fa92-209c-4b90-924a-5336fb59395b")
+	)
+	(wire
+		(pts
 			(xy 306.07 142.24) (xy 360.68 142.24)
 		)
 		(stroke
@@ -3850,6 +3844,16 @@
 			(type default)
 		)
 		(uuid "6f58ff03-4c91-41be-9d5a-8078818affc6")
+	)
+	(wire
+		(pts
+			(xy 306.07 167.64) (xy 309.88 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5a9a0c-fc3b-4687-a090-22eb18496c03")
 	)
 	(bus
 		(pts
@@ -4250,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "9d8d7a18-765b-4863-862e-b1f8e9d48936")
+	)
+	(wire
+		(pts
+			(xy 140.97 153.67) (xy 144.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbc3e34-879a-4623-a1e5-a94f9a2a1290")
 	)
 	(wire
 		(pts
@@ -5050,6 +5064,16 @@
 			(type default)
 		)
 		(uuid "f4dc5e0a-b529-49bd-a404-1ef00fa7abdd")
+	)
+	(wire
+		(pts
+			(xy 306.07 172.72) (xy 309.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56aed44-b426-4c8d-ad0c-76728c405637")
 	)
 	(wire
 		(pts
@@ -6148,6 +6172,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 311.15 152.4 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b754950-b827-4a48-8a58-c84283a3d1fb")
+		(property "Reference" "#PWR0116"
+			(at 317.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffbb41f6-d1a5-4dc5-9d85-134c18a3f826")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 128.27 190.5 0)
 		(mirror y)
 		(unit 1)
@@ -6391,7 +6481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "rf-input-fmc:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -6950,6 +7040,72 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 172.72 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3b43d9-3ef4-4326-b6bf-080d2b7412c8")
+		(property "Reference" "#PWR0115"
+			(at 316.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0f31d44-85b6-4f98-aebe-34f572534040")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "rf-input-fmc:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 306.07 55.88 0)
 			(effects
 				(font
@@ -8149,6 +8305,72 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 153.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fb1cade-d7c6-4e68-8d7a-08343198faa0")
+		(property "Reference" "#PWR0185"
+			(at 151.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd85f57-9769-4925-a224-ee7644eb2b98")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -9345,6 +9567,72 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
 					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 167.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc82a68e-3c9b-434b-a0ed-c2a905b69720")
+		(property "Reference" "#PWR0182"
+			(at 316.23 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4db005f-c192-4f2c-afad-78ced66d66bc")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
