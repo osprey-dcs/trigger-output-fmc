@@ -960,6 +960,12 @@
 		(uuid "9571da05-86dc-4518-bc1b-be670e5efb11")
 	)
 	(junction
+		(at 146.05 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98aabb56-9f9b-481f-aff9-4402f348162b")
+	)
+	(junction
 		(at 147.32 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1033,16 +1039,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 109.22) (xy 149.86 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25667b89-1648-40b9-835b-34c873461d12")
-	)
-	(wire
-		(pts
 			(xy 191.77 105.41) (xy 201.93 105.41)
 		)
 		(stroke
@@ -1050,6 +1046,16 @@
 			(type default)
 		)
 		(uuid "2a53f082-07e8-4abc-ba64-5d1bd1d290fa")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d47962-709f-412f-9fa2-15defb7b5112")
 	)
 	(wire
 		(pts
@@ -1153,16 +1159,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 149.86 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6f810c-067f-4d4f-b5ba-d568c4059fbf")
-	)
-	(wire
-		(pts
 			(xy 161.29 105.41) (xy 158.75 105.41)
 		)
 		(stroke
@@ -1190,6 +1186,16 @@
 			(type default)
 		)
 		(uuid "8aeea13c-604e-4bfd-9643-cf5b862394c0")
+	)
+	(wire
+		(pts
+			(xy 146.05 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c78b78b-46ff-42fb-9db3-ec91c056c9eb")
 	)
 	(wire
 		(pts
@@ -1243,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 121.92) (xy 102.87 121.92)
+			(xy 91.44 121.92) (xy 146.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1270,6 +1276,26 @@
 			(type default)
 		)
 		(uuid "c6e8ff44-19ec-4e80-a098-740667f6d777")
+	)
+	(wire
+		(pts
+			(xy 146.05 109.22) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda36811-9d1e-4cae-8430-b3f896515abb")
+	)
+	(wire
+		(pts
+			(xy 146.05 121.92) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db10bbc4-3ec6-4c68-8f93-6ba1d286b7c5")
 	)
 	(wire
 		(pts
@@ -1340,36 +1366,6 @@
 			(type default)
 		)
 		(uuid "fd2a7cdd-99c9-41ab-9b19-0b071727e705")
-	)
-	(label "OE"
-		(at 149.86 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca0b037d-a960-43a7-a17a-8006d54246c1")
-	)
-	(label "OE"
-		(at 149.86 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cacb3382-048b-498a-aeb1-179722461bce")
-	)
-	(label "OE"
-		(at 102.87 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6ee20f1-8b69-4488-9e15-b853545893db")
 	)
 	(hierarchical_label "OE"
 		(shape input)

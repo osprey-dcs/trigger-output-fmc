@@ -2359,16 +2359,6 @@
 		)
 		(uuid "8d74832e-ac90-45b3-9431-49835f5bb9bf")
 	)
-	(text "TO DO: Likely want to GND unused gates"
-		(exclude_from_sim no)
-		(at 293.878 195.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "92b799c5-fb9a-4a02-bffe-725404ae9f97")
-	)
 	(text "+2.5V"
 		(exclude_from_sim no)
 		(at 204.216 37.084 0)

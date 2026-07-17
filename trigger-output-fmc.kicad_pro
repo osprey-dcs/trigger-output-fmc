@@ -706,6 +706,10 @@
       "FMC"
     ],
     [
+      "05ea2a42-fe0f-470f-b14d-98c7f1e9db32",
+      "Level Shifter"
+    ],
+    [
       "8d16482c-d52b-487d-9e5f-3b83070cc1cb",
       "out_buffer0"
     ],
@@ -768,10 +772,6 @@
     [
       "83c69cea-e937-4f43-91dd-e5dd30212f2d",
       "out_buffer15"
-    ],
-    [
-      "05ea2a42-fe0f-470f-b14d-98c7f1e9db32",
-      "Level Shifter"
     ]
   ],
   "text_variables": {}
