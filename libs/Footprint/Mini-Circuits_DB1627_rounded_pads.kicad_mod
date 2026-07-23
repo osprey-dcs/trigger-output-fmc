@@ -1,4 +1,4 @@
-(footprint "Mini-Circuits_DB1627"
+(footprint "Mini-Circuits_DB1627_rounded_pads"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Mini-Circuits_DB1627"
+	(property "Value" "Mini-Circuits_DB1627_rounded_pads"
 		(at 0 3.35 0)
 		(layer "F.Fab")
 		(uuid "1a694735-2bb4-4ccb-84f3-12ff1c89d180")

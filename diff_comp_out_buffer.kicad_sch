@@ -2130,7 +2130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 166.878 83.058 0)
 			(effects
 				(font
@@ -2156,7 +2156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1000PF 50V X7R 0603"
+		(property "Description" "CAP CER 10000PF 50V C0G/NP0 0603"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM188R71H102KA37D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 163.83 81.28 90)
 			(effects
 				(font

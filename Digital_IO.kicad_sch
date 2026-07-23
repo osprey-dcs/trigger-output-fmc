@@ -313,6 +313,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -808,6 +959,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "50mOhm\n3A"
+		(exclude_from_sim no)
+		(at 44.45 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c98edadc-dfc7-4b80-8156-7e93cfe1e72b")
+	)
 	(junction
 		(at 280.67 114.3)
 		(diameter 0)
@@ -887,12 +1048,6 @@
 		(uuid "7180519b-7859-4ba6-a446-364d292437c1")
 	)
 	(junction
-		(at 40.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "731b24e3-4ad3-40f9-be3d-bed9c5bb0a3f")
-	)
-	(junction
 		(at 219.71 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -933,12 +1088,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca876fc7-de47-491e-be3b-0f44e76cfdac")
-	)
-	(junction
-		(at 49.53 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0a88d1a-2c4a-48f4-8263-c303bdd08c6e")
 	)
 	(junction
 		(at 280.67 78.74)
@@ -1744,16 +1893,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 135.89) (xy 40.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38eb4d8d-7e5f-4741-907f-942fc924adc9")
-	)
-	(wire
-		(pts
 			(xy 64.77 27.94) (xy 45.72 27.94)
 		)
 		(stroke
@@ -1791,16 +1930,6 @@
 			(type default)
 		)
 		(uuid "3a298590-7ae7-4ba9-8cd3-8e85046476e1")
-	)
-	(wire
-		(pts
-			(xy 49.53 135.89) (xy 49.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2899a6-8af6-4ed2-84a1-0144d2e566ce")
 	)
 	(wire
 		(pts
@@ -1902,16 +2031,6 @@
 		)
 		(uuid "46ccabca-e922-40f1-b004-01007704e0f5")
 	)
-	(wire
-		(pts
-			(xy 46.99 135.89) (xy 49.53 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7c7410-e2cd-4c97-9a3d-7eec13aaed12")
-	)
 	(bus
 		(pts
 			(xy 43.18 81.28) (xy 43.18 83.82)
@@ -1921,16 +2040,6 @@
 			(type default)
 		)
 		(uuid "4c0a38db-6325-4b88-8c2e-190b1a842464")
-	)
-	(wire
-		(pts
-			(xy 49.53 127) (xy 54.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3312ca-319c-430e-8144-34947fd3c188")
 	)
 	(wire
 		(pts
@@ -2374,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 127) (xy 41.91 127)
+			(xy 38.1 127) (xy 41.91 127)
 		)
 		(stroke
 			(width 0)
@@ -2701,16 +2810,6 @@
 			(type default)
 		)
 		(uuid "ad357a9f-600e-4b24-9339-58997e8cda1b")
-	)
-	(wire
-		(pts
-			(xy 38.1 127) (xy 40.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad47b0aa-e040-4c4c-8c74-d815e1d8a800")
 	)
 	(wire
 		(pts
@@ -3104,16 +3203,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 135.89) (xy 40.64 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5aafc8-f5ea-400d-92dc-fb93285b486e")
-	)
-	(wire
-		(pts
 			(xy 181.61 55.88) (xy 175.26 55.88)
 		)
 		(stroke
@@ -3134,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 127) (xy 49.53 127)
+			(xy 46.99 127) (xy 54.61 127)
 		)
 		(stroke
 			(width 0)
@@ -5229,91 +5318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bcb9b2f-308d-4f53-a3e7-3dd14256d37c")
-		(property "Reference" "R42"
-			(at 44.45 133.604 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 44.45 138.176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 44.45 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
-			(at 44.45 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3GEY0R00V"
-			(at 44.45 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 44.45 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8cdd24f-6e23-4fe8-830c-2f9366a5d0fc")
-		)
-		(pin "2"
-			(uuid "0ddc7186-e0d7-498d-ba32-7789cdcf69a3")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 213.36 148.59 0)
 		(mirror x)
@@ -6964,6 +6968,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 44.45 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b366bada-fb59-442b-b647-0212d7e77166")
+		(property "Reference" "FB3"
+			(at 44.45 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300@100MHz"
+			(at 44.45 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 44.45 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 300 OHM 0805 3LN"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "742792031"
+			(at 44.45 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 44.45 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8428b6f-3831-4703-8b29-8dbfa90e691e")
+		)
+		(pin "1"
+			(uuid "6fdb76a7-7bf1-4e8f-9e2e-c89ca5e8c7f4")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 96.52 133.35 0)
 		(unit 1)
@@ -7132,91 +7221,6 @@
 			(project "evr-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0d9d72a-aae8-4855-82f7-072dc861ab78")
-		(property "Reference" "R73"
-			(at 44.45 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 44.45 129.286 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3GEY0R00V"
-			(at 44.45 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 44.45 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4a11621-9214-4164-9878-073592f04fde")
-		)
-		(pin "2"
-			(uuid "9daa3f9e-6f84-461f-8aa9-8156ad34e615")
-		)
-		(instances
-			(project "evr-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0"
-					(reference "R73")
 					(unit 1)
 				)
 			)
