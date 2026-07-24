@@ -2498,6 +2498,16 @@
 		)
 		(uuid "7191b17f-c633-4c83-8447-ab34ea60cfc5")
 	)
+	(text "Termination as descibed in  \nFamily Reference Manual page 21"
+		(exclude_from_sim no)
+		(at 168.656 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9051ce16-d7c1-404b-b8be-04bd78bb7b93")
+	)
 	(text "+1.8V"
 		(exclude_from_sim no)
 		(at 302.768 44.704 0)
