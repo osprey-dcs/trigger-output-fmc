@@ -7,7 +7,7 @@ when matched with the [LBL Marble](https://github.com/BerkeleyLab/Marble) FMC ca
 This design is Open Hardware created by Osprey DCS and published under the terms of the
 [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](cern_ohl_s_v2.txt) license.
 
-This repository contains KiCad 9 design files.
+This repository contains KiCad 9.0.4 design files.
 
 - [Data sheet](datasheet.md)
 - [Current generated](https://osprey-dcs.github.io/trigger-output-fmc/)

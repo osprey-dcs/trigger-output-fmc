@@ -7375,7 +7375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LP3855EMP-ADJ/NOPB "
+		(property "MPN" "LP3855EMP-ADJ/NOPB"
 			(at 71.12 129.54 0)
 			(effects
 				(font

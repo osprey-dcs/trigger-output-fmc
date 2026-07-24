@@ -9048,7 +9048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 135.89 49.53 90)
 			(effects
 				(font
@@ -11509,7 +11509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 242.57 49.53 90)
 			(effects
 				(font
@@ -11962,7 +11962,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D "
+		(property "MPN" "BLM18AG121SN1D"
 			(at 160.02 83.82 90)
 			(effects
 				(font
