@@ -264,24 +264,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1409700|1384300|76c914bf-9886-467b-88d3-8e671bea47a9|363c1255-2682-40fb-ba34-a2cb2c088b0c|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108",
-        "Intentional ground unused gate"
-      ],
-      [
-        "pin_to_pin|3060700|1371600|ea313896-b2f0-4c5b-8c77-817703e2deb6|363c1255-2682-40fb-ba34-a2cb2c088b0c|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108",
-        "Intentional ground unused gate"
-      ],
-      [
-        "pin_to_pin|3060700|1422400|1e6abb8e-638f-4019-b445-7c212d0ae702|363c1255-2682-40fb-ba34-a2cb2c088b0c|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108",
-        "Intentional ground unused gate"
-      ],
-      [
-        "pin_to_pin|3060700|1473200|6eda8825-7535-432a-b1af-c51db998af71|363c1255-2682-40fb-ba34-a2cb2c088b0c|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/05ea2a42-fe0f-470f-b14d-98c7f1e9db32|/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108",
-        "Intentional ground unused gate"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
