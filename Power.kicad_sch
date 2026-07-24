@@ -1128,6 +1128,16 @@
 		)
 		(uuid "1460af3d-b1f4-408c-91ac-7039b54f8ea1")
 	)
+	(text "5.45V Out\nVout= 0.765(1+(R1/R2))"
+		(exclude_from_sim no)
+		(at 128.524 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36484e87-f736-41dc-acd1-34265b7a318e")
+	)
 	(text "50mOhm\n3A"
 		(exclude_from_sim no)
 		(at 203.2 90.17 0)

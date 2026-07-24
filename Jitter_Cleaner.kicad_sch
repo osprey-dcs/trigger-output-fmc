@@ -2450,7 +2450,7 @@
 	)
 	(text "48MHz XTAL\n+/-15ppm"
 		(exclude_from_sim no)
-		(at 154.178 165.1 0)
+		(at 140.208 156.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,6 +2599,12 @@
 		(uuid "28c58a0e-8404-4b73-9815-7d77ebf73b98")
 	)
 	(junction
+		(at 152.4 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29fbbd73-55c5-4cdf-a331-16fd698261d7")
+	)
+	(junction
 		(at 201.93 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2663,6 +2669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64ca59b0-cc80-4f36-b37c-c71fa180cfdb")
+	)
+	(junction
+		(at 167.64 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ea6ecf-8043-4380-99a0-0c3814c95780")
 	)
 	(junction
 		(at 236.22 109.22)
@@ -2973,16 +2985,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 153.67) (xy 195.58 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c81467-13df-477b-810b-a57e9e8a7be9")
-	)
-	(wire
-		(pts
 			(xy 330.2 157.48) (xy 349.25 157.48)
 		)
 		(stroke
@@ -3123,6 +3125,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 161.29) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df1601f-2853-4ade-a7f6-bceb85cff93e")
+	)
+	(wire
+		(pts
 			(xy 238.76 109.22) (xy 236.22 109.22)
 		)
 		(stroke
@@ -3150,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "12bc19f7-6a18-40bb-9d68-69f6927044f0")
+	)
+	(wire
+		(pts
+			(xy 173.99 157.48) (xy 173.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1487b1c6-c5ab-4d5a-a6b3-83466ec6d17c")
 	)
 	(wire
 		(pts
@@ -3683,13 +3705,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 175.26 144.78)
+			(xy 152.4 144.78) (xy 167.64 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c6388a6-14a2-4012-ae65-4485966813ae")
+	)
+	(wire
+		(pts
+			(xy 173.99 161.29) (xy 152.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5b36e8-644e-430a-ab13-cb2549fe1936")
 	)
 	(wire
 		(pts
@@ -3710,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "4f039fd8-a953-48e5-a2b2-653edead6284")
-	)
-	(wire
-		(pts
-			(xy 195.58 153.67) (xy 195.58 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f82c801-45cf-489a-81d2-7c354fa63135")
 	)
 	(wire
 		(pts
@@ -4383,6 +4405,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 144.78) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968388f5-d81b-4d96-9c35-84fff265a0bb")
+	)
+	(wire
+		(pts
 			(xy 255.27 49.53) (xy 262.89 49.53)
 		)
 		(stroke
@@ -4683,6 +4715,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 153.67) (xy 167.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfebc3d-c9cc-47eb-93a6-4675462f3bf6")
+	)
+	(wire
+		(pts
 			(xy 269.24 83.82) (xy 260.35 83.82)
 		)
 		(stroke
@@ -4723,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 157.48) (xy 198.12 157.48)
+			(xy 173.99 157.48) (xy 198.12 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5090,6 +5132,16 @@
 			(type default)
 		)
 		(uuid "f3f58222-0965-42e0-b22c-e685e97a5e8c")
+	)
+	(wire
+		(pts
+			(xy 165.1 153.67) (xy 167.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5575ee8-7591-47a6-b727-8b6a7d097007")
 	)
 	(wire
 		(pts
@@ -9831,14 +9883,14 @@
 			)
 		)
 		(property "Value" "CX3225SB48000D0FPJC1"
-			(at 160.782 161.544 90)
+			(at 139.7 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
+		(property "Footprint" "rf-input-fmc:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
 			(at 160.02 153.67 0)
 			(effects
 				(font
