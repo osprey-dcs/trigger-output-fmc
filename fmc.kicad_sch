@@ -20449,6 +20449,192 @@
 		)
 		(uuid "fde25dd5-64be-4a2d-8858-1c8ec2b12794")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 157.48 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "364f393b-ef10-478d-98d1-33a8d24761a6")
+		(property "Netclass" "LongDiff"
+			(at 158.1785 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 157.48 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fa9fb19-3772-406f-a7dd-3c5bf0654ef7")
+		(property "Netclass" "LongDiff"
+			(at 158.1785 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4096cb3e-0dc0-4afe-943b-8191dc9940a4")
+		(property "Netclass" "LongDiff"
+			(at 247.0785 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.11 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b612ce05-ed2b-4b14-abf8-a6bb31fcb04a")
+		(property "Netclass" "LongDiff"
+			(at 245.8085 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 168.91 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccae52c8-2639-41fb-9b7b-1f35e0df63b3")
+		(property "Netclass" "LongDiff"
+			(at 247.0785 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.11 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb3a14d-a797-43d4-8fe4-a968f72f97a5")
+		(property "Netclass" "LongDiff"
+			(at 245.8085 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 168.91 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 34.29 219.71 0)
@@ -20506,7 +20692,7 @@
 			(uuid "cdbacd9c-9b24-4ade-bc1a-1ef781504c0d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR043")
 					(unit 1)
@@ -20580,15 +20766,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 240.03 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 240.03 242.57 0)
 			(effects
 				(font
@@ -21798,7 +21975,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683453")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 8)
@@ -21863,7 +22040,7 @@
 			(uuid "0d09ffc1-1f1e-4669-8cf6-b95733345e29")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR039")
 					(unit 1)
@@ -21916,7 +22093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 16V X5R 0805"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 34.29 214.63 0)
 			(effects
 				(font
@@ -21925,7 +22102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MOCLRNC"
+		(property "MPN" "KGM21AR51E226MU"
 			(at 34.29 214.63 0)
 			(effects
 				(font
@@ -21934,16 +22111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-6780-6-ND"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 34.29 214.63 0)
 			(effects
 				(font
@@ -21959,7 +22127,7 @@
 			(uuid "cfed5432-c971-47f0-993b-96fd116c44dd")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "C35")
 					(unit 1)
@@ -22024,7 +22192,7 @@
 			(uuid "fa1ef387-d1ac-4903-b5b3-21198585bb4b")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR0159")
 					(unit 1)
@@ -22105,15 +22273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 389.89 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d00187db-6f9a-45ed-b3b0-7be962252552")
 		)
@@ -22121,7 +22280,7 @@
 			(uuid "e00139a4-9999-40c7-a80d-dc5373fe073a")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R20")
 					(unit 1)
@@ -22201,15 +22360,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KHRDKR-ND"
-			(at 314.96 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "92fa3814-594b-479f-a6e8-6db31c4b57af")
 		)
@@ -22217,7 +22367,7 @@
 			(uuid "d96346fc-5118-4bff-8658-01a2def92c7f")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R101")
 					(unit 1)
@@ -22285,7 +22435,7 @@
 			(uuid "363c1255-2682-40fb-ba34-a2cb2c088b0c")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#FLG06")
 					(unit 1)
@@ -22366,20 +22516,11 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5000-ND"
-			(at 34.29 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b003984c-d31b-429d-b0a1-880ae94bb68c")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "TP3")
 					(unit 1)
@@ -22457,15 +22598,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "P0.0GDKR-ND"
-			(at 76.2 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f5164cd3-8b67-45e5-a958-2d587101ec2d")
 		)
@@ -22473,7 +22605,7 @@
 			(uuid "a795b44f-6920-42dc-bb4a-998f5ce495ae")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R17")
 					(unit 1)
@@ -22537,7 +22669,7 @@
 			(uuid "627238aa-acad-410d-bdeb-41714fe4fca5")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR053")
 					(unit 1)
@@ -22602,7 +22734,7 @@
 			(uuid "dd0c391a-ac57-4e02-b108-997811f9c030")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR049")
 					(unit 1)
@@ -22670,7 +22802,7 @@
 			(uuid "27075022-b583-49a2-ac2c-c3d9bc5468d6")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#FLG08")
 					(unit 1)
@@ -22744,15 +22876,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 350.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 350.52 127 0)
 			(effects
 				(font
@@ -23962,7 +24085,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683454")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 3)
@@ -24036,15 +24159,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 415.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 415.29 127 0)
 			(effects
 				(font
@@ -25254,7 +25368,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683455")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 4)
@@ -25328,15 +25442,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 285.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 285.75 125.73 0)
 			(effects
 				(font
@@ -26546,7 +26651,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683456")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 2)
@@ -26619,15 +26724,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 209.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -27837,7 +27933,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683457")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 1)
@@ -27873,7 +27969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_2.7mm_Pad_3.1mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 226.06 0)
 			(effects
 				(font
@@ -27904,7 +28000,7 @@
 			(uuid "3354e3fd-66a6-49fb-a17d-91b01ed7dcce")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "H3")
 					(unit 1)
@@ -27985,15 +28081,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 323.85 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ce339002-ac1a-4b48-b2dc-e58f34917b06")
 		)
@@ -28001,7 +28088,7 @@
 			(uuid "8c1eca1c-310b-4548-ae95-e8e54e254665")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "D1")
 					(unit 1)
@@ -28066,7 +28153,7 @@
 			(uuid "09f5a28e-2dd4-4585-81d0-d8436b905cd2")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR041")
 					(unit 1)
@@ -28131,7 +28218,7 @@
 			(uuid "35977bce-7a17-4c55-ae29-ce1c4d73ab5d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR0110")
 					(unit 1)
@@ -28195,7 +28282,7 @@
 			(uuid "40c3f19c-167b-443f-ac9e-22a673d67618")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR048")
 					(unit 1)
@@ -28263,7 +28350,7 @@
 			(uuid "a7be6e48-643e-48d2-bb9f-7f7c6cc58266")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#FLG09")
 					(unit 1)
@@ -28344,20 +28431,11 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5000-ND"
-			(at 34.29 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e681caae-08f3-48c2-bb6d-9a75a530ea70")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "TP2")
 					(unit 1)
@@ -28431,15 +28509,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 215.9 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 215.9 242.57 0)
 			(effects
 				(font
@@ -29649,7 +29718,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683458")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 7)
@@ -29730,15 +29799,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-8.20KHRDKR-ND"
-			(at 406.4 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8f764990-f163-4e03-a7da-e4793e7690b9")
 		)
@@ -29746,7 +29806,7 @@
 			(uuid "d9013d85-d698-4ffd-8ae9-bc4e7711756d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R100")
 					(unit 1)
@@ -29811,7 +29871,7 @@
 			(uuid "285c964f-bbfc-4a9c-8c51-1e5dee28acc6")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR054")
 					(unit 1)
@@ -29892,15 +29952,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 323.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "be6e9285-451b-4750-90cd-83e954f9d353")
 		)
@@ -29908,7 +29959,7 @@
 			(uuid "8922d716-df36-44c9-a664-9ac5c54d041f")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R18")
 					(unit 1)
@@ -29973,7 +30024,7 @@
 			(uuid "08f3b81b-0358-4d09-9a7a-f71bec7a5358")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR047")
 					(unit 1)
@@ -30054,20 +30105,11 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5001-ND"
-			(at 71.12 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fa1431a1-340a-4c58-bc04-64f10d4a917e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "TP1")
 					(unit 1)
@@ -30131,7 +30173,7 @@
 			(uuid "6e9a90a2-ffca-4cf6-a612-9bb0ef252aa5")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR050")
 					(unit 1)
@@ -30196,7 +30238,7 @@
 			(uuid "e6e3c17b-14b8-4956-a55a-42305fac2864")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR045")
 					(unit 1)
@@ -30261,7 +30303,7 @@
 			(uuid "57f8afd4-4146-441b-b404-84963b1fd4de")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR052")
 					(unit 1)
@@ -30342,15 +30384,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 374.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fccf39a2-4e55-4758-91c1-44cc85a5e9de")
 		)
@@ -30358,7 +30391,7 @@
 			(uuid "768d6c16-11ed-4860-b934-f12ca5f9bb20")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R95")
 					(unit 1)
@@ -30438,15 +30471,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KHRDKR-ND"
-			(at 341.63 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c67849ac-92d5-45fe-a346-eeb745a39e67")
 		)
@@ -30454,7 +30478,7 @@
 			(uuid "33dd3717-1ad8-4784-85e4-0e0bbf90bb65")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R102")
 					(unit 1)
@@ -30522,7 +30546,7 @@
 			(uuid "fd6bbb0e-d8e0-4f48-ad04-766305acb1f0")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#FLG010")
 					(unit 1)
@@ -30587,7 +30611,7 @@
 			(uuid "79f7aa9f-e09c-48cf-807a-1a257c73e6f1")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR066")
 					(unit 1)
@@ -30661,15 +30685,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 295.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 295.91 243.84 0)
 			(effects
 				(font
@@ -31879,7 +31894,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f683459")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 10)
@@ -31947,7 +31962,7 @@
 			(uuid "20a74c9c-cf89-493e-b2cc-c83650451f42")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#FLG07")
 					(unit 1)
@@ -32012,7 +32027,7 @@
 			(uuid "e30e48bf-e528-4d68-80f0-deb67c455a0c")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR042")
 					(unit 1)
@@ -32076,7 +32091,7 @@
 			(uuid "8941e061-3a07-42e3-928f-73065fe2ea21")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR051")
 					(unit 1)
@@ -32112,7 +32127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_2.7mm_M2.5_Pad_Marble_Slot"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 214.63 0)
 			(effects
 				(font
@@ -32152,7 +32167,7 @@
 			(uuid "f6c0a3e8-9f29-4f30-b2ca-7dfc30485086")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "H2")
 					(unit 1)
@@ -32226,15 +32241,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 137.16 242.57 0)
 			(effects
 				(font
@@ -33444,7 +33450,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f68345a")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 5)
@@ -33480,7 +33486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rf-input-fmc:MountingHole_2.7mm_Pad_3.1mm"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_3.8mm_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 237.49 0)
 			(effects
 				(font
@@ -33511,7 +33517,7 @@
 			(uuid "7905f35d-9250-4070-b9f1-966558f4e952")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "H4")
 					(unit 1)
@@ -33576,7 +33582,7 @@
 			(uuid "6008abf4-e097-4179-a38f-5cb004250235")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR067")
 					(unit 1)
@@ -33641,7 +33647,7 @@
 			(uuid "551c720b-b319-4880-8f70-90478ff34df9")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR046")
 					(unit 1)
@@ -33715,15 +33721,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 267.97 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 267.97 243.84 0)
 			(effects
 				(font
@@ -34933,7 +34930,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f68345b")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 9)
@@ -34998,7 +34995,7 @@
 			(uuid "6ea1b7cf-39f0-4f0b-8b76-f62f570b097a")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR038")
 					(unit 1)
@@ -35051,7 +35048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 16V X5R 0805"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -35060,7 +35057,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MOCLRNC"
+		(property "MPN" "KGM21AR51E226MU"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -35069,16 +35066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 34.29 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-6780-6-ND"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -35094,7 +35082,7 @@
 			(uuid "3327fa2c-1ab7-4845-abb2-97da2dcfe5a4")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "C34")
 					(unit 1)
@@ -35159,7 +35147,7 @@
 			(uuid "7fe2dd0c-c995-40c1-9c9e-64f7ca7338c8")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR057")
 					(unit 1)
@@ -35240,15 +35228,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "FDN335NDKR-ND"
-			(at 346.71 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f294def2-ecf0-4636-8cce-bd4da9f386db")
 		)
@@ -35259,7 +35238,7 @@
 			(uuid "87b62a49-0200-458c-94e9-5379fac7414e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "Q2")
 					(unit 1)
@@ -35340,15 +35319,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 349.25 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1219bc95-2713-44cf-9d21-99bfd26c6430")
 		)
@@ -35356,7 +35326,7 @@
 			(uuid "de43cbaa-5a6f-480a-8278-e454dd043449")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "D2")
 					(unit 1)
@@ -35437,15 +35407,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "FDN335NDKR-ND"
-			(at 372.11 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e4961124-1139-40ad-8500-69249bfcfc55")
 		)
@@ -35456,7 +35417,7 @@
 			(uuid "c14148cd-5cf2-40db-86dd-dd9252f94c8e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "Q3")
 					(unit 1)
@@ -35521,7 +35482,7 @@
 			(uuid "3ec15bb8-3fcb-44da-9a82-e24f8c146dd8")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR0158")
 					(unit 1)
@@ -35602,15 +35563,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 389.89 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "479a0bb7-f994-4c40-9f09-675d305d5b55")
 		)
@@ -35618,7 +35570,7 @@
 			(uuid "0c41bbad-8318-4f2d-83a7-dd56f91d6473")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "D3")
 					(unit 1)
@@ -35683,7 +35635,7 @@
 			(uuid "e2606f92-52bb-4e64-b6b7-61cb2e1aff31")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR056")
 					(unit 1)
@@ -35764,15 +35716,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "RHM1.00KADDKR-ND"
-			(at 349.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6192bd08-2271-470d-9f60-f9bd5a1e77bc")
 		)
@@ -35780,7 +35723,7 @@
 			(uuid "d07c28fb-99fe-41e5-9b76-1751ebd71235")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R19")
 					(unit 1)
@@ -35861,15 +35804,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 374.65 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "89c13db9-2228-49ca-b554-ac28487491b6")
 		)
@@ -35877,7 +35811,7 @@
 			(uuid "e1a1def9-074a-464f-a02b-ad695660a3cd")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "D4")
 					(unit 1)
@@ -35958,15 +35892,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1116-6-ND"
-			(at 406.4 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c980b1e7-2922-4ee0-962a-c9bcfad94c44")
 		)
@@ -35974,7 +35899,7 @@
 			(uuid "0f91c58f-6c01-4855-b603-e3124afcd67f")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "D5")
 					(unit 1)
@@ -36048,15 +35973,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 191.77 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "SAM8730-ND"
 			(at 191.77 242.57 0)
 			(effects
 				(font
@@ -37266,7 +37182,7 @@
 			(uuid "ef26d542-4d08-4ddd-ba61-09270f68345c")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 6)
@@ -37319,7 +37235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 16V X5R 0805"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 34.29 237.49 0)
 			(effects
 				(font
@@ -37328,7 +37244,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MOCLRNC"
+		(property "MPN" "KGM21AR51E226MU"
 			(at 34.29 237.49 0)
 			(effects
 				(font
@@ -37337,16 +37253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-6780-6-ND"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 34.29 237.49 0)
 			(effects
 				(font
@@ -37362,7 +37269,7 @@
 			(uuid "44ef6499-4a7f-414e-9082-bea74ea79ef4")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "C79")
 					(unit 1)
@@ -37398,7 +37305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+		(property "Footprint" "rf-input-fmc:MountingHole_3.0mm_M2.5_Pad_3.3mm_UniversalMarbleSlot"
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -37438,7 +37345,7 @@
 			(uuid "b9d23f78-4f26-47a6-8700-f806d3c046ad")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "H1")
 					(unit 1)
@@ -37503,7 +37410,7 @@
 			(uuid "718f0025-1a9f-4d3d-a3a4-2ca9e023290d")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR044")
 					(unit 1)
@@ -37581,15 +37488,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "P0.0GDKR-ND"
-			(at 39.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3da097b7-b5d3-4b5d-bdae-32fcd6781a02")
 		)
@@ -37597,7 +37495,7 @@
 			(uuid "ef11f6fe-0fc9-4c98-98be-7ff70aa2b14c")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R16")
 					(unit 1)
@@ -37678,15 +37576,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "FDN335NDKR-ND"
-			(at 321.31 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c3c6c80d-01a9-4ad2-8926-6e22ff32d398")
 		)
@@ -37697,7 +37586,7 @@
 			(uuid "9bb78bce-245d-410f-ad57-ebe54a6bb019")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "Q1")
 					(unit 1)
@@ -37778,20 +37667,11 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-5000-ND"
-			(at 34.29 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bec97def-c420-4172-b18e-774860c69691")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "TP4")
 					(unit 1)
@@ -37856,7 +37736,7 @@
 			(uuid "1c4cf679-1378-4212-b982-d5cd4a22497e")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "#PWR055")
 					(unit 1)
@@ -37936,15 +37816,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KHRDKR-ND"
-			(at 365.76 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "17bf400e-e9a9-4644-ad61-3686bece04ac")
 		)
@@ -37952,7 +37823,7 @@
 			(uuid "7869fc62-f829-4012-a1ab-89f0ce2225f6")
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R103")
 					(unit 1)
@@ -38023,7 +37894,7 @@
 			)
 		)
 		(instances
-			(project "evr-fmc"
+			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "Logo1")
 					(unit 1)
