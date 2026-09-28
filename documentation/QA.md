@@ -14,7 +14,7 @@ The purpose of this document is to have a consistent unified way each Board is t
 
 ***
 ***
-
+<form onsubmit="return false">
 ## Procedure
 
 ### QA Metadata
@@ -125,10 +125,17 @@ and edit `createEEPROMs.sh` with the appropriate serial numbers.
 - [<input type="checkbox">] Look at each of the 16 outputs to ensure compliance.
 
 **Channels Checked:**
-[<input type="checkbox">] Ch 0 &nbsp; [<input type="checkbox">] Ch 1 &nbsp; [<input type="checkbox">] Ch 2 &nbsp; [<input type="checkbox">] Ch 3 &nbsp;
-[<input type="checkbox">] Ch 4 &nbsp; [<input type="checkbox">] Ch 5 &nbsp; [<input type="checkbox">] Ch 6 &nbsp; [<input type="checkbox">] Ch 7 &nbsp;s
-[<input type="checkbox">] Ch 8 &nbsp; [<input type="checkbox">] Ch 9 &nbsp; [<input type="checkbox">] Ch 10 &nbsp; [<input type="checkbox">] Ch 11 &nbsp;
-[<input type="checkbox">] Ch 12 &nbsp; [<input type="checkbox">] Ch 13 &nbsp; [<input type="checkbox">] Ch 14 &nbsp; [<input type="checkbox">] Ch 15 &nbsp;
+
+|  |  |
+| :--- | :--- |
+| Ch 0 [<input type="checkbox">] Pass | Ch 8 [<input type="checkbox">] Pass |
+| Ch 1 [<input type="checkbox">] Pass | Ch 9 [<input type="checkbox">] Pass |
+| Ch 2 [<input type="checkbox">] Pass | Ch 10 [<input type="checkbox">] Pass |
+| Ch 3 [<input type="checkbox">] Pass | Ch 11 [<input type="checkbox">] Pass |
+| Ch 4 [<input type="checkbox">] Pass | Ch 12 [<input type="checkbox">] Pass |
+| Ch 5 [<input type="checkbox">] Pass | Ch 13 [<input type="checkbox">] Pass |
+| Ch 6 [<input type="checkbox">] Pass | Ch 14 [<input type="checkbox">] Pass |
+| Ch 7 [<input type="checkbox">] Pass | Ch 15 [<input type="checkbox">] Pass |
 
 - [<input type="checkbox">] **Digital Outputs Signal Check Complete**
 
@@ -142,24 +149,31 @@ and edit `createEEPROMs.sh` with the appropriate serial numbers.
 
 ### Final Result
 Indicate a Pass/Fail if this performed with no deviations or waivers
+
 * [<input type="radio" name="result" value="PASS">] **PASS** / [<input type="radio" name="result" value="FAIL">] **FAIL**
 
 * **Deviations / Waivers / Comments:**
-<textarea rows="3" cols="60" placeholder="Notes..."></textarea>
 
-<div class="no-print">
+    <textarea rows="3" cols="60" placeholder="Notes..."></textarea>
+
 * Record the git commit of **this QA procedure** in the Testing Log:
-<input type="text" placeholder="Git Commit...">
 
+    <input type="text" placeholder="Git Commit...">
+
+<div class="no-print" style="display: flex; flex-wrap: wrap; gap: 12px 10px; align-items: center; margin-top: 15px;">
 <hr>
-<button onclick="copyForSpreadsheet()" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
+<button type="button" onclick="copyForSpreadsheet()" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
   📋 Copy Row for Spreadsheet
 </button>
-<span id="copy-status" style="margin-left: 10px; color: #28a745; font-weight: bold;"></span>
-<button onclick="window.print()" style="padding: 10px 20px; font-weight: bold; cursor: pointer;">
+<button type="button" onclick="window.print()" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
   📄 Print / Save as PDF
 </button>
+<button type="reset" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
+  🗑️ Clear All Fields
+</button>
+<span id="copy-status" style="margin-left: 10px; color: #28a745; font-weight: bold;"></span>
 </div>
+</form>
 
 <script>
 function copyForSpreadsheet() {

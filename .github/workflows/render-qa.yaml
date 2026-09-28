@@ -1,6 +1,7 @@
-name: QA Procedure HTML Build
+name: Render QA HTML on Markdown Change
 
 on:
+<<<<<<< Updated upstream
   workflow_run:
     workflows: ["Automation"] # KiBot workflow
     types:
@@ -18,11 +19,21 @@ permissions:
 concurrency:
   group: 'pages'
   cancel-in-progress: true
+=======
+  push:
+    branches: [ main, Add-QA ]
+    paths:
+      - 'documentation/QA.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+>>>>>>> Stashed changes
 
 jobs:
-  build-and-deploy-qa:
-    name: Build QA & Deploy to Pages
+  render-and-amend:
     runs-on: ubuntu-latest
+<<<<<<< Updated upstream
     
     if: ${{ github.event.workflow_run.conclusion == 'success'|| github.event_name == 'workflow_dispatch' }}
       
@@ -42,30 +53,32 @@ jobs:
 
       - name: Download KiBot Fab Artifact
         uses: actions/download-artifact@v4
+=======
+    steps:
+      - uses: actions/checkout@v4
+>>>>>>> Stashed changes
         with:
-          name: Everything
-          path: output
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          run-id: ${{ github.event.workflow_run.id }}
+          fetch-depth: 0 # Fetch history so we can amend
 
       - name: Install Pandoc
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+          sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Convert QA.md to HTML
         run: |
-          mkdir -p output/qa
           pandoc documentation/QA.md \
             --standalone \
+            --embed-resources \
             -c "https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" \
-            -o output/qa/index.html
+            -o documentation/QA.html
 
-      - name: Upload Combined Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: output/
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Amend Last Commit with QA.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add documentation/QA.html
+          # Only commit if QA.html changed
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
+            git push --force-with-lease
+          fi

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>QA</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<h1 id="trigger-output-fmc-quality-assurance-procedure">Trigger Output
+FMC Quality Assurance Procedure</h1>
+<h2 id="purpose">Purpose</h2>
+<p>The purpose of this document is to have a consistent unified way each
+Board is tested before deployment. This procedure will be updated
+periodically to improve QA of the boards.</p>
+<h2 id="equipment-needed">Equipment needed</h2>
+<ul>
+<li>2 x MMCX to SMA Cables</li>
+<li>2 x SMA to BNC adapters</li>
+<li>1 x SMA to SMA Cable</li>
+<li>Multimeter (Fluke 115 or better)</li>
+<li>Triple output Benchtop Power Supply</li>
+<li>2 x FMC Power breakout module <a
+href="https://www.iamelectronic.com/shop/produkt/fpga-mezzanine-card-fmc-power-module/">link</a></li>
+<li>Marble Testing Chassis</li>
+<li>PC to run IOC and Phoebus</li>
+</ul>
+<hr />
+<hr />
+<form onsubmit="return false">
+<h2 id="procedure">Procedure</h2>
+<h3 id="qa-metadata">QA Metadata</h3>
+<ul>
+<li><strong>Board Serial Number:</strong>
+<input type="text" placeholder="e.g., SN-1042"></li>
+<li><strong>PCB Revision:</strong>
+<input type="text" placeholder="e.g., Rev B"></li>
+</ul>
+<h3 id="visual-inspection">Visual Inspection</h3>
+<p>Check visual for any board defects. If the board has come back from
+rework look at the reworked areas carefully under magnification for any
+shorts etc.</p>
+<p>Areas to check with extra scrutiny are around the clock jitter
+cleaner components.</p>
+<ul>
+<li>[<input type="checkbox">] <strong>Visual Inspection
+Complete</strong> <em>Notes / Defects:</em>
+<input type="text" style="width: 80%;"></li>
+</ul>
+<hr />
+<h3 id="power-testing">Power Testing</h3>
+<p>Next the Board will be powered up in various ways to protect other
+testing hardware.</p>
+<h3 id="looking-for-shorts-to-gnd">Looking for Shorts to GND</h3>
+<p>Using the multimeter check that all voltage test points have a
+resistance to board ground greater than 1kΩ.</p>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 20%" />
+<col style="width: 29%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr>
+<th>Silkscreened Label</th>
+<th>Nominal Voltage</th>
+<th>Measured Resistance (Ω)</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VDD3P3V</td>
+<td>+3.3V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>VADJ</td>
+<td>+2.5V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>12P0V</td>
+<td>+12V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>TP5</td>
+<td>+1.8V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>TP6</td>
+<td>+3.3V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>TP7</td>
+<td>+3.3V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>TP8</td>
+<td>+5.45V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+<tr>
+<td>TP9</td>
+<td>+1.8V</td>
+<td><input type="text"></td>
+<td>[<input type="checkbox">] Pass (&gt;1kΩ)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>[<input type="checkbox">] <strong>Resistance Check
+Complete</strong></li>
+</ul>
+<hr />
+<h3 id="v3.3v2.5v-power-testing">12V/3.3V/2.5V Power Testing</h3>
+<p>One at a time inject 12V, 3.3V &amp; 2.5V using the voltage test
+points found on the board. Do this with a 1.5A current limit.</p>
+<p>Note variance from nominal current if found.</p>
+<table>
+<thead>
+<tr>
+<th>Rail</th>
+<th>Nominal Expected</th>
+<th>Measured Current</th>
+<th>Notes / Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12V</td>
+<td>~130mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>3.3V</td>
+<td>~70mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>2.5V</td>
+<td>~4mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>[<input type="checkbox">] <strong>Individual Power Test
+Complete</strong></li>
+</ul>
+<hr />
+<h3 id="fmc-breakout-power-testing">FMC breakout Power Testing</h3>
+<p>Using a 3 output power supply and two FMC Power breakout modules:
+Power up all input power rails (12V/3.3V/2.5V) simultaneously.</p>
+<p>Note variance from nominal current if found.</p>
+<table>
+<thead>
+<tr>
+<th>Rail</th>
+<th>Nominal Expected</th>
+<th>Measured Current</th>
+<th>Notes / Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12V</td>
+<td>~130mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>3.3V</td>
+<td>~70mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>2.5V</td>
+<td>~4mA</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>[<input type="checkbox">] <strong>FMC Breakout Power Test
+Complete</strong></li>
+</ul>
+<hr />
+<h3 id="power-up-with-marble">Power up with Marble</h3>
+<p>Attach a now power tested quartz to a <strong>powered off</strong>
+marble testing chassis.</p>
+<ul>
+<li>[<input type="checkbox">] Power up the testing chassis.</li>
+<li>[<input type="checkbox">] Start the IOC.</li>
+<li>[<input type="checkbox">] Ensure proper readback of diagnostic
+signals (voltage, etc.). <br></li>
+<li>[<input type="checkbox">] <strong>Power Up with Marble
+Complete</strong></li>
+</ul>
+<hr />
+<h3 id="eeprom-programmed">EEPROM Programmed</h3>
+<p>Checkout the branch/revision appropriate to the PCB model to be
+programmed, and edit <code>createEEPROMs.sh</code> with the appropriate
+serial numbers.</p>
+<ul>
+<li><strong>Git Revision / Commit Used:</strong>
+<input type="text"></li>
+<li>[<input type="checkbox">] <strong>EEPROM Programmed
+Complete</strong></li>
+</ul>
+<hr />
+<h3 id="signal-check---clock-routing">Signal Check - Clock Routing</h3>
+<ul>
+<li><p>[<input type="checkbox">] Ensure the chassis under test has an
+EVR input at a nominal 125MHz provided by another chassis</p></li>
+<li><p>[<input type="checkbox">] Route received 125MHz through to the
+first jitter cleaner (U18) using FMC_LA_1 pin pair</p>
+<ul>
+<li>[<input type="checkbox">] Ensure the System can now lock to
+FMC_GBTCLK0</li>
+<li>[<input type="checkbox">] Using the FPGA console run ‘fmon’ to see
+the clock also on FMC_LA_0 signal pair</li>
+</ul></li>
+<li><p>[<input type="checkbox">] Route received 125MHz through to the
+first jitter cleaner (U18) using FMC_LA_18</p>
+<ul>
+<li>[<input type="checkbox">] Ensure the System can now lock to
+FMC_GBTCLK1</li>
+<li>[<input type="checkbox">] Using the FPGA console run ‘fmon’ to see
+the clock also on FMC_LA_17 signal pair</li>
+</ul></li>
+<li><p>[<input type="checkbox">] Ensure that each scenario
+locks</p></li>
+<li><p>[<input type="checkbox">] <strong>Clock Routing Signal Check
+Complete</strong></p></li>
+</ul>
+<hr />
+<h3 id="signal-check---digital-outputs">Signal Check - Digital
+Outputs</h3>
+<ul>
+<li>[<input type="checkbox">] For each Digital Output set up and send an
+event stream turning all outputs on and off at 1Hz.</li>
+<li>[<input type="checkbox">] Force 0/1</li>
+<li>[<input type="checkbox">] Look at each of the 16 outputs to ensure
+compliance.</li>
+</ul>
+<p><strong>Channels Checked:</strong></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">Ch 0 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 8 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 1 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 9 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 2 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 10 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 3 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 11 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 4 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 12 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 5 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 13 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 6 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 14 [<input type="checkbox">] Pass</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ch 7 [<input type="checkbox">] Pass</td>
+<td style="text-align: left;">Ch 15 [<input type="checkbox">] Pass</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>[<input type="checkbox">] <strong>Digital Outputs Signal Check
+Complete</strong></li>
+</ul>
+<hr />
+<h2 id="startcompletion-validation">Start/Completion Validation</h2>
+<ul>
+<li><strong>Tested Performed By:</strong>
+<input type="text" placeholder="Inspector Name"></li>
+<li><strong>Date Initiated:</strong> <input type="date"></li>
+<li><strong>Date Completed:</strong> <input type="date"></li>
+</ul>
+<h3 id="final-result">Final Result</h3>
+<p>Indicate a Pass/Fail if this performed with no deviations or
+waivers</p>
+<ul>
+<li><p>[<input type="radio" name="result" value="PASS">]
+<strong>PASS</strong> /
+[<input type="radio" name="result" value="FAIL">]
+<strong>FAIL</strong></p></li>
+<li><p><strong>Deviations / Waivers / Comments:</strong></p>
+<textarea rows="3" cols="60" placeholder="Notes..."></textarea></li>
+<li><p>Record the git commit of <strong>this QA procedure</strong> in
+the Testing Log:</p>
+<p><input type="text" placeholder="Git Commit..."></p></li>
+</ul>
+<div class="no-print"
+style="display: flex; flex-wrap: wrap; gap: 12px 10px; align-items: center; margin-top: 15px;">
+<hr>
+<button type="button" onclick="copyForSpreadsheet()" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
+📋 Copy Row for Spreadsheet
+</button>
+<button type="button" onclick="window.print()" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
+📄 Print / Save as PDF
+</button>
+<button type="reset" style="padding: 10px 20px; font-weight: bold; cursor: pointer; background-color: #0366d6; color: white; border: none; border-radius: 4px;">
+🗑️ Clear All Fields
+</button>
+<p><span id="copy-status"
+style="margin-left: 10px; color: #28a745; font-weight: bold;"></span></p>
+</div>
+</form>
+<script>
+function copyForSpreadsheet() {
+  const data = [];
+
+  function cleanCell(val) {
+    if (val === null || val === undefined) return '';
+    return String(val).replace(/[\r\n\t]+/g, ' ').trim();
+  }
+
+  // 1. Gather all form controls in DOM order
+  const controls = document.querySelectorAll('input, textarea');
+
+  controls.forEach(control => {
+    // Skip radio buttons that aren't checked
+    if (control.type === 'radio' && !control.checked) return;
+
+    // Capture checkbox state
+    if (control.type === 'checkbox') {
+      data.push(control.checked ? 'PASS' : 'UNCHECKED');
+      return;
+    }
+
+    // Capture text, date, textarea, and selected radio value
+    data.push(cleanCell(control.value));
+  });
+
+  const tsvRow = data.join('\t');
+
+  // 2. Robust Copy Mechanism
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(tsvRow).then(showSuccess).catch(fallbackCopy);
+  } else {
+    fallbackCopy();
+  }
+
+  // Fallback clipboard copy mechanism for browser environments where the modern Async Clipboard API (navigator.clipboard.writeText) is unavailable or blocked—such as local file:// protocols, older browsers, or unsecure contexts (http://)
+  function fallbackCopy() {
+    const tempTextArea = document.createElement('textarea');
+    tempTextArea.value = tsvRow;
+    tempTextArea.style.position = 'fixed';
+    tempTextArea.style.left = '-9999px';
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    try {
+      document.execCommand('copy');
+      showSuccess();
+    } catch (err) {
+      alert('Failed to copy: ' + err);
+    }
+    document.body.removeChild(tempTextArea);
+  }
+
+  function showSuccess() {
+    const status = document.getElementById('copy-status');
+    status.textContent = 'Copied to clipboard!';
+    setTimeout(() => { status.textContent = ''; }, 3000);
+  }
+}
+</script>
+<style>
+@media print {
+  /* Hide procedural text, equipment, and instruction steps */
+  .no-print, nav, header, footer {
+    display: none !important;
+  }
+
+  /* Compact spacing for the printed summary page */
+  body {
+    font-size: 11pt;
+    line-height: 1.2;
+    color: #000;
+  }
+
+  /* Make inputs look like clean text instead of form fields */
+  input[type="text"], input[type="date"], textarea {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    background: transparent !important;
+  }
+
+  /* Ensure tables print cleanly without breaking across pages */
+  table {
+    page-break-inside: avoid;
+    width: 100%;
+    border-collapse: collapse;
+  }
+}
+</style>
+</body>
+</html>
