@@ -521,26 +521,6 @@
 				(justify right)
 			)
 		)
-		(pin "OE_Faults_0" input
-			(at 180.34 86.36 0)
-			(uuid "8a7734c1-10e3-48aa-be46-80dc198550a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OE_Faults_1" input
-			(at 180.34 99.06 0)
-			(uuid "1721d4d1-1668-42e6-8c83-599bc95db9b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{RST}_0" input
 			(at 180.34 88.9 0)
 			(uuid "8d14eab5-738b-4e23-8bff-0b18e1f386ca")
@@ -609,6 +589,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Cleaner_LevelShift_~{OE}_0" input
+			(at 180.34 86.36 0)
+			(uuid "ed669a20-f17c-4098-a9db-6cf531c19b95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Cleaner_LevelShift_~{OE}_1" input
+			(at 180.34 99.06 0)
+			(uuid "08fa6d54-79c3-42e7-8e40-63c01b537c04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -976,26 +976,6 @@
 				(justify left)
 			)
 		)
-		(pin "Cleaner_~{OE}_0" output
-			(at 208.28 86.36 180)
-			(uuid "842e9ee1-2d3b-4a85-9ccd-c5d150f861d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Cleaner_~{OE}_1" output
-			(at 208.28 99.06 180)
-			(uuid "62cf20d3-d3b9-4762-95bd-d2a15fb50ae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{Digital_LVDS}" output
 			(at 208.28 44.45 180)
 			(uuid "2a21b922-268b-4d81-9170-a9efb5ace5ce")
@@ -1039,6 +1019,26 @@
 		(pin "Recovered_CLK_1{DP}" output
 			(at 208.28 106.68 180)
 			(uuid "1f460b4e-0901-408b-957e-fe1999b2e937")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cleaner_LevelShift_~{OE}_0" output
+			(at 208.28 86.36 180)
+			(uuid "99b964c1-8157-48ef-9e3a-43b9572b53fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cleaner_LevelShift_~{OE}_1" output
+			(at 208.28 99.06 180)
+			(uuid "991229b3-0e3a-4a96-9930-f7cfc3ebe5b0")
 			(effects
 				(font
 					(size 1.27 1.27)

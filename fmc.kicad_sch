@@ -17011,7 +17011,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 198.12 88.9)
+			(xy 152.4 88.9) (xy 198.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -18379,7 +18379,7 @@
 		)
 		(uuid "20924af0-ba2a-41e7-a702-42880b38997a")
 	)
-	(label "Cleaner_~{OE}_1"
+	(label "Cleaner_LevelShift_~{OE}_1"
 		(at 86.36 114.3 180)
 		(effects
 			(font
@@ -18519,7 +18519,7 @@
 		)
 		(uuid "3c3769d4-d9da-4e46-a8e3-f8503ce1258a")
 	)
-	(label "Cleaner_~{OE}_0"
+	(label "Cleaner_LevelShift_~{OE}_0"
 		(at 86.36 58.42 180)
 		(effects
 			(font
@@ -19279,7 +19279,7 @@
 		)
 		(uuid "c9d51734-6866-4794-bb5e-f79d597b7e66")
 	)
-	(label "Cleaner_~{OE}_1"
+	(label "Cleaner_LevelShift_~{OE}_1"
 		(at 360.68 80.01 0)
 		(effects
 			(font
@@ -19409,8 +19409,8 @@
 		)
 		(uuid "ddef3721-49c7-4cc6-ae84-ead5ff09082c")
 	)
-	(label "Cleaner_~{OE}_0"
-		(at 156.21 88.9 0)
+	(label "Cleaner_LevelShift_~{OE}_0"
+		(at 152.4 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20306,7 +20306,7 @@
 		)
 		(uuid "4899743f-a5cb-47e6-9fb7-e1f4a90c9f33")
 	)
-	(hierarchical_label "Cleaner_~{OE}_1"
+	(hierarchical_label "Cleaner_LevelShift_~{OE}_1"
 		(shape output)
 		(at 46.99 114.3 180)
 		(effects
@@ -20383,7 +20383,7 @@
 		)
 		(uuid "862f5e4c-5677-44af-98e0-b5d7f360c280")
 	)
-	(hierarchical_label "Cleaner_~{OE}_0"
+	(hierarchical_label "Cleaner_LevelShift_~{OE}_0"
 		(shape output)
 		(at 46.99 58.42 180)
 		(effects
