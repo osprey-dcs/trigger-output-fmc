@@ -7717,7 +7717,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45430099-9b1e-40e5-b0af-18a2517479a5")
 		(property "Reference" "TP7"
@@ -9354,7 +9354,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "807fd692-de3d-4059-91ac-31e37b856f43")
 		(property "Reference" "TP5"
