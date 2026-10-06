@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Trigger Output FMC")
-		(date "2026-05-07")
-		(rev "1.0")
+		(date "2026-10-06")
+		(rev "1.1")
 		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)

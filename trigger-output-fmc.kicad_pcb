@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Trigger Output FMC")
-		(date "2026-05-07")
-		(rev "1.0")
+		(date "2026-10-06")
+		(rev "1.1")
 		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
@@ -8565,6 +8565,172 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(layer "F.Cu")
+		(uuid "2493718a-4740-43d8-b899-c81889567ccc")
+		(at 137 76.75)
+		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+		(tags "Through Hole Mount Test Points")
+		(property "Reference" "TP10"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "180d62d4-5d89-4ae5-b09b-dc065ae2e889")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Keystone5000"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d737c9f0-b23c-4440-a010-cdb7594130ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71dba9e2-b2d4-415b-96e9-2557f19d058d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "PC TEST POINT MINIATURE RED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a323cb6b-d6a6-4776-b94e-c4cc14eb2bf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "714cdab8-f84c-432c-a80c-a4f481a8daa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cfaf63b-a04e-4ff5-b44f-b3f9781b7f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e8674f3d-4c31-47ac-9c13-b31bc6bb3cc0/8dbda16c-c87c-431e-b6fe-4bb8e6314d67")
+		(sheetname "/Digital IO/")
+		(sheetfile "Digital_IO.kicad_sch")
+		(attr through_hole dnp)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "eb735687-4255-4907-a3e7-3ab788ccfe2e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.65 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b6716e5b-7a87-4b0f-b6c2-ce9cce82e89b")
+		)
+		(fp_rect
+			(start -0.75 -0.25)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "24f26c0d-3abb-4ab1-bb6b-995e3e12997c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dd384c54-0632-426a-8c04-8d2a3ff6b231")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "339dee38-91b3-4de4-8ab5-ec86486f7ddd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 53 "/Digital IO/VCC")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "7b3ba62e-1c15-4e52-a271-a04153d1965e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -97451,7 +97617,7 @@
 			)
 		)
 	)
-	(gr_text "Trigger Output FMC 1.0\nOsprey DCS 2026\n"
+	(gr_text "Trigger Output FMC 1.1\nOsprey DCS 2026\n"
 		(at 186.03 89.625 90)
 		(layer "F.SilkS")
 		(uuid "5f26e14b-2500-4bd6-a1c0-e059ffe866e0")
@@ -97512,6 +97678,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "5.0V\n"
+		(at 137 74.5 0)
+		(layer "F.SilkS")
+		(uuid "b1203d85-bcfd-41f3-b53c-0f4870e2dcb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "1.8V\n"
@@ -97575,7 +97752,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Trigger Output FMC 1.0\nOsprey DCS 2026\n"
+	(gr_text "Trigger Output FMC 1.1\nOsprey DCS 2026\n"
 		(at 186.03 71.845 90)
 		(layer "B.SilkS")
 		(uuid "fdc4ed43-aac4-4792-af52-a2aa0a36f1e8")
