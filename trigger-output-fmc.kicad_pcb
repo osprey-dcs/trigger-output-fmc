@@ -56898,7 +56898,7 @@
 		(descr "TSSOP, 24 Pin (JEDEC MO-153 variation AD, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U27"
-			(at 1.5875 -5.525 0)
+			(at 2.3375 -4.825 90)
 			(layer "B.SilkS")
 			(uuid "d518095b-eb60-476d-90a4-3e7142657e45")
 			(effects
