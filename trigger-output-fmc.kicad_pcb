@@ -3936,7 +3936,7 @@
 		(path "/ad07928c-12a9-42cf-8d66-942ea8d8f93f/7ad9d155-e4ad-4122-84f7-df89f981b2a8")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -13178,7 +13178,7 @@
 		(path "/ad07928c-12a9-42cf-8d66-942ea8d8f93f/b88fb4c6-b3ee-4f20-8ed4-65c69c3f4dfc")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -13701,7 +13701,7 @@
 		(path "/ad07928c-12a9-42cf-8d66-942ea8d8f93f/cfef2ec3-74bb-4b0e-b0d3-3447b9bd06cc")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -17891,7 +17891,7 @@
 		(path "/ad07928c-12a9-42cf-8d66-942ea8d8f93f/2711d9c6-7cc6-4e7e-8eac-18f766488b42")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -22963,7 +22963,7 @@
 		(path "/ad07928c-12a9-42cf-8d66-942ea8d8f93f/9d037922-24b9-427a-86c2-59aa7358fab4")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
