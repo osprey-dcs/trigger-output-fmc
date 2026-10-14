@@ -2381,7 +2381,7 @@
 		)
 		(uuid "9dd24f68-6f81-4d8e-bc20-b1abd72a151b")
 	)
-	(text "Set as A->B"
+	(text "Set as B<-A\n"
 		(exclude_from_sim no)
 		(at 319.278 128.524 0)
 		(effects

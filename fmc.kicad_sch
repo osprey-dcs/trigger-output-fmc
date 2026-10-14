@@ -13091,7 +13091,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 208.28) (xy 34.29 208.28)
+			(xy 31.75 208.28) (xy 34.29 208.28)
 		)
 		(stroke
 			(width 0)
@@ -15161,6 +15161,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 181.61) (xy 34.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ce1ceb-6b2b-48ae-ad9f-9d8c6fb5ce5c")
+	)
+	(wire
+		(pts
 			(xy 195.58 124.46) (xy 195.58 129.54)
 		)
 		(stroke
@@ -15561,7 +15571,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 231.14) (xy 34.29 231.14)
+			(xy 31.75 231.14) (xy 34.29 231.14)
 		)
 		(stroke
 			(width 0)
@@ -16708,16 +16718,6 @@
 			(type default)
 		)
 		(uuid "c19a8605-c66e-46e7-9202-c12e23972d21")
-	)
-	(wire
-		(pts
-			(xy 34.29 181.61) (xy 33.02 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c14f66-8179-4852-b84f-bb7da4d32fd0")
 	)
 	(wire
 		(pts
@@ -21863,93 +21863,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c129ac0-7be7-4390-9039-05d355ed4990")
-		(property "Reference" "C35"
-			(at 36.576 213.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 36.576 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KGM21AR51E226MU"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92b85c82-b4e5-4a0c-b35f-e226f07b9189")
-		)
-		(pin "2"
-			(uuid "cfed5432-c971-47f0-993b-96fd116c44dd")
-		)
-		(instances
-			(project "trigger-output-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 222.25 0)
 		(unit 1)
@@ -22323,6 +22236,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "185610bf-c71f-41bd-8abb-9de911afb9a6")
+		(property "Reference" "C34"
+			(at 36.576 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 36.576 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 34.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
+			(at 34.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GMK325BJ226MM-P"
+			(at 34.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 34.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a46d7e-465f-4300-93aa-8a244dbb3599")
+		)
+		(pin "2"
+			(uuid "1d8f4c8c-4293-4676-9e9d-e0620d609867")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 34.29 208.28 0)
 		(unit 1)
@@ -22623,17 +22623,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 208.28 90)
+		(at 31.75 208.28 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2739f0d0-e0a3-451f-8a79-05dade430c00")
 		(property "Reference" "#FLG08"
-			(at 31.115 208.28 0)
+			(at 29.845 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22641,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 208.2799 90)
+			(at 27.94 208.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22651,7 +22650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 208.28 0)
+			(at 31.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +22659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 208.28 0)
+			(at 31.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,7 +22668,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 208.28 0)
+			(at 31.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28106,17 +28105,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 231.14 90)
+		(at 31.75 231.14 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "469724f0-fe60-4b63-bdb1-2478dfb47f0d")
 		(property "Reference" "#FLG09"
-			(at 31.115 231.14 0)
+			(at 29.845 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28125,7 +28123,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 231.1399 90)
+			(at 27.94 231.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28134,7 +28132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 231.14 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28143,7 +28141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 231.14 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28152,7 +28150,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 231.14 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31908,17 +31906,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 181.61 90)
+		(at 31.75 181.61 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89d7fdf9-58b4-4367-b1d1-ca659b118608")
 		(property "Reference" "#FLG07"
-			(at 31.115 181.61 0)
+			(at 29.845 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31927,7 +31924,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 181.6099 90)
+			(at 27.94 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31936,7 +31933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 181.61 0)
+			(at 31.75 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31945,7 +31942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 181.61 0)
+			(at 31.75 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31954,7 +31951,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 181.61 0)
+			(at 31.75 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35094,15 +35091,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 34.29 189.23 0)
+		(at 34.29 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b53fc89a-ded4-4a0a-9d40-d9d66b00f720")
-		(property "Reference" "C34"
-			(at 36.576 188.214 0)
+		(uuid "b2bbb748-e107-4c44-b95b-61f401c23624")
+		(property "Reference" "C79"
+			(at 36.576 236.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35111,7 +35108,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 36.576 190.5 0)
+			(at 36.576 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35119,8 +35116,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 34.29 189.23 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 34.29 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35129,7 +35126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 189.23 0)
+			(at 34.29 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35137,8 +35134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
-			(at 34.29 189.23 0)
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
+			(at 34.29 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35146,8 +35143,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM21AR51E226MU"
-			(at 34.29 189.23 0)
+		(property "MPN" "GMK325BJ226MM-P"
+			(at 34.29 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35155,8 +35152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 34.29 189.23 0)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 34.29 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35165,15 +35162,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c81b5818-d7e9-45dc-ac18-4ea3657b5bae")
+			(uuid "83e5680a-056b-4342-8a41-9942e63e3b2f")
 		)
 		(pin "2"
-			(uuid "3327fa2c-1ab7-4845-abb2-97da2dcfe5a4")
+			(uuid "672e0444-60e8-40b6-a5fd-7d0ec8ac53bd")
 		)
 		(instances
 			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
-					(reference "C34")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -35815,6 +35812,93 @@
 			(project "trigger-output-fmc"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d964b255-97fa-4b31-8415-5dcd4e9c549a")
+		(property "Reference" "C35"
+			(at 36.576 213.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 36.576 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 34.29 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
+			(at 34.29 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GMK325BJ226MM-P"
+			(at 34.29 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 34.29 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8d50c53-e42c-46fd-aab5-16b49080e4d7")
+		)
+		(pin "2"
+			(uuid "e957760b-7918-43b0-8cf8-8feacc5ba93f")
+		)
+		(instances
+			(project "trigger-output-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -37340,93 +37424,6 @@
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
 					(reference "P1")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 34.29 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4cf9fde-2329-4cf4-a626-353f972eae83")
-		(property "Reference" "C79"
-			(at 36.576 236.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 36.576 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KGM21AR51E226MU"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21ae4690-33cd-412a-a839-fb55cc6a8698")
-		)
-		(pin "2"
-			(uuid "44ef6499-4a7f-414e-9082-bea74ea79ef4")
-		)
-		(instances
-			(project "trigger-output-fmc"
-				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba/8aff4400-91ca-4a4b-be62-b9bc642d9108"
-					(reference "C79")
-					(unit 1)
 				)
 			)
 		)
