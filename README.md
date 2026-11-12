@@ -14,6 +14,7 @@ This repository contains KiCad 9.0.4 design files.
   - [Schematic](https://osprey-dcs.github.io/trigger-output-fmc/trigger-output-fmc-schematic.pdf)
   - [BoM](https://osprey-dcs.github.io/trigger-output-fmc/trigger-output-fmc-bom.csv)
   - [STeP model](https://osprey-dcs.github.io/trigger-output-fmc/3D/trigger-output-fmc-3D.step)
+  - [QA Procedure](https://osprey-dcs.github.io/trigger-output-fmc/QA.html)
 
 ## Block Diagram
 

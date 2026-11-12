@@ -22,6 +22,11 @@ jobs:
       with:
         dir: output
         config: .github/kibot-fab.yaml
+    - name: Generate QA HTML
+      run: |
+        mkdir -p output
+        sudo chown -R "$(id -u):$(id -g)" output
+        python3 scripts/generate_qa_html.py documentation/QA.md -o output/QA.html --inject-nav output
     - name: Full output
       uses: actions/upload-artifact@v7
       if: ${{ always() }}
@@ -84,7 +89,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.ghpages.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
