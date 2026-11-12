@@ -9909,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8910/kyocera_09112019_CX3225SB.pdf"
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/crystal-device/cx3225sb_e.pdf"
 			(at 160.02 153.67 0)
 			(effects
 				(font
