@@ -6,12 +6,10 @@ The purpose of this document is to have a consistent unified way each Board is t
 
 ## Equipment Needed
 
-* 2 x MMCX to SMA Cables
-* 2 x SMA to BNC adapters
-* 1 x SMA to SMA Cable
 * Multimeter (Fluke 115 or better)
 * Triple output Benchtop Power Supply
-* 2 x FMC Power breakout module [link](https://www.iamelectronic.com/shop/produkt/fpga-mezzanine-card-fmc-power-module/)
+* Oscilloscope with 125MHz+ bandwidth
+* FMC Power breakout module [link](https://www.iamelectronic.com/shop/produkt/fpga-mezzanine-card-fmc-power-module/)
 * Marble Testing Chassis
 * PC to run IOC and Phoebus
 
@@ -23,6 +21,10 @@ The purpose of this document is to have a consistent unified way each Board is t
 
 * **Board Serial Number:**
 * **PCB Revision:**
+* **IOC URL:**
+* **IOC Commit:**
+* **Firmware URL:**
+* **Firmware Commit:**
 
 ### Visual Inspection
 
@@ -67,7 +69,7 @@ Note variance from nominal current if found.
 
 | Rail | Nominal Expected | Measured Current | Notes / Variance |
 | ---- | ---------------- | ---------------- | ---------------- |
-| 12V  | ~130mA           |                  |                  |
+| 12V  | ~50mA            |                  |                  |
 | 3.3V | ~70mA            |                  |                  |
 | 2.5V | ~4mA             |                  |                  |
 
@@ -83,7 +85,7 @@ Note variance from nominal current if found.
 
 | Rail | Nominal Expected | Measured Current | Notes / Variance |
 | ---- | ---------------- | ---------------- | ---------------- |
-| 12V  | ~130mA           |                  |                  |
+| 12V  | ~50mA            |                  |                  |
 | 3.3V | ~70mA            |                  |                  |
 | 2.5V | ~4mA             |                  |                  |
 
@@ -93,7 +95,7 @@ Note variance from nominal current if found.
 
 ### Power Up with Marble
 
-Attach a now power tested quartz to a **powered off** marble testing chassis.
+Attach a now power tested board to a **powered off** marble testing chassis.
 
 1. Power up the testing chassis.
 2. Start the IOC.
@@ -115,14 +117,21 @@ Checkout the branch/revision appropriate to the PCB model to be programmed, and 
 
 ### Signal Check - Clock Routing
 
-1. Ensure the chassis under test has an EVR input at a nominal 125MHz provided by another chassis.
-2. Route received 125MHz through to the first jitter cleaner (U18) using `FMC_LA_1` pin pair:
-   * Ensure the System can now lock to `FMC_GBTCLK0`.
-   * Using the FPGA console run `fmon` to see the clock also on `FMC_LA_0` signal pair.
-3. Route received 125MHz through to the first jitter cleaner (U18) using `FMC_LA_18`:
-   * Ensure the System can now lock to `FMC_GBTCLK1`.
-   * Using the FPGA console run `fmon` to see the clock also on `FMC_LA_17` signal pair.
-4. Ensure that each scenario locks.
+1. Ensure the chassis under test is in EVG mode and Clk Source is set to Int. 125MHz.
+2. Set both Jitter Cleaner to default configuration (IN:125MHz ; OUT:125MHz|62.5MHz):
+   * Using the FPGA console run`jtr1 cfg` to set up the first jitter cleaner.
+   * Using the FPGA console run`jtr2 cfg` to set up the second jitter cleaner.
+3. Using an Oscilloscope, check the clock test ports:
+   * CLK1 should be 125MHz.
+   * CLK2 should be 62.5MHz.
+   * CLK3 should be 125MHz.
+   * CLK4 should be 62.5MHz.
+4. Using the FPGA console run fmon to see that clocks are read back by the FPGA
+   * `FMC2.0 MGT REF2` clock should read 125MHz
+   * `FMC2.1 MGT REF3` clock should read 125MHz
+   * `FMC2 CLN0` clock should read 125MHz
+   * `FMC2 CLN1` clock should read 125MHz
+
 
 - [ ] **Clock Routing Signal Check Complete**
 
