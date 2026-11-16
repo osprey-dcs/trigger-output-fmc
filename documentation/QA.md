@@ -131,7 +131,9 @@ Checkout the branch/revision appropriate to the PCB model to be programmed, and 
    * `FMC2.1 MGT REF3` clock should read 125MHz
    * `FMC2 CLN0` clock should read 125MHz
    * `FMC2 CLN1` clock should read 125MHz
-
+5. Check that the Jitter cleaner status PV read 0x0
+   * `EVT:TO:sts:1` should read 0x0
+   * `EVT:TO:sts:2` should read 0x0
 
 - [ ] **Clock Routing Signal Check Complete**
 
