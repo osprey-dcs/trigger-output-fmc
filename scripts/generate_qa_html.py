@@ -30,9 +30,14 @@ body { font-family: sans-serif; max-width: 850px; margin: 20px auto; padding: 0 
 table { width: 100%; border-collapse: collapse; margin: 12px 0; }
 th, td { border: 1px solid #888; padding: 6px 8px; text-align: left; }
 th { background: #eee; }
-textarea { width: 100%; box-sizing: border-box; margin-top: 4px; }
-td input[type="text"] { width: 95%; }
+textarea { width: 100%; flex: 1 1 100%; box-sizing: border-box; margin-top: 4px; }
+td input[type="text"] { width: 95%; box-sizing: border-box; }
 .no-bullets { list-style: none; padding-left: 0; }
+.no-bullets li { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 6px; margin: 4px 0; }
+.no-bullets li > strong { white-space: nowrap; }
+.no-bullets li br { display: none; }
+.no-bullets li input[type="text"] { flex: 1 1 300px; min-width: 200px; box-sizing: border-box; }
+.print-value { display: none; }
 .toolbar { margin: 15px 0; padding: 8px; border: 1px solid #ccc; background: #f5f5f5; }
 .toolbar button, .toolbar label, .toolbar a { margin-right: 8px; }
 @media print {
@@ -40,8 +45,12 @@ td input[type="text"] { width: 95%; }
   body { max-width: 100%; margin: 0; padding: 0; font-size: 10.5pt; }
   h1, h2, h3 { page-break-after: avoid; break-after: avoid; }
   table, tr { page-break-inside: avoid; break-inside: avoid; }
-  input[type="text"], input[type="date"] { border: none; border-bottom: 1px solid #000; background: transparent; }
-  td input[type="text"] { border: none; }
+  input[type="text"], textarea { display: none !important; }
+  input[type="date"] { border: none; border-bottom: 1px solid #000; background: transparent; }
+  .print-value { display: inline-block !important; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; }
+  .no-bullets li .print-value { flex: 1 1 300px; min-width: 200px; min-height: 1.2em; border-bottom: 1px solid #000; }
+  .no-bullets li .print-value.multiline { display: block !important; flex: 1 1 100%; width: 100%; min-height: 3.6em; border: 1px solid #888; border-radius: 3px; padding: 4px 6px; box-sizing: border-box; margin-top: 4px; }
+  td .print-value { display: block !important; width: 100%; min-height: 1.2em; }
 }
 """
 
@@ -79,9 +88,42 @@ function syncToggles(src) {
   document.querySelectorAll(".include-headers-toggle").forEach(el => { el.checked = src.checked; });
 }
 
-function exportPdf() {
-  document.querySelectorAll('input[type="text"], input[type="date"]').forEach(el => el.setAttribute("value", el.value));
+function syncPrintValues() {
+  document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+    const pv = el.nextElementSibling;
+    if (pv && pv.classList.contains("print-value")) pv.textContent = el.value;
+  });
+}
+
+function prepareForPrint() {
+  if (document.activeElement && typeof document.activeElement.blur === "function") {
+    document.activeElement.blur();
+  }
+  syncPrintValues();
+  document.querySelectorAll('input[type="text"], input[type="date"]').forEach(el => {
+    el.setAttribute("value", el.value);
+    el.scrollLeft = 0;
+    try { el.setSelectionRange(0, 0); } catch (_) {}
+  });
+  document.querySelectorAll("textarea").forEach(ta => {
+    ta.textContent = ta.value;
+  });
   document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked ? cb.setAttribute("checked", "checked") : cb.removeAttribute("checked"));
+}
+
+window.addEventListener("DOMContentLoaded", syncPrintValues);
+window.addEventListener("beforeprint", prepareForPrint);
+document.addEventListener("input", syncPrintValues);
+document.addEventListener("change", syncPrintValues);
+document.addEventListener("blur", e => {
+  if (e.target && e.target.matches && e.target.matches('input[type="text"]')) {
+    e.target.scrollLeft = 0;
+    try { e.target.setSelectionRange(0, 0); } catch (_) {}
+  }
+}, true);
+
+function exportPdf() {
+  prepareForPrint();
   window.print();
 }
 
@@ -112,6 +154,7 @@ function copyCsvRow() {
 function clearForm() {
   document.getElementById("qa-form").reset();
   document.querySelectorAll('input[type="text"], input[type="date"], textarea').forEach(el => { el.value = ""; el.removeAttribute("value"); });
+  document.querySelectorAll("textarea, .print-value").forEach(el => { el.textContent = ""; });
   document.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = false; cb.removeAttribute("checked"); });
   setStatus("Cleared.");
 }
@@ -196,8 +239,8 @@ def convert_markdown(md_text: str) -> tuple[str, str]:
             if "date" in low:
                 return "no-bullets", f'<li><strong>{html.escape(clean)}:</strong> <input type="date" {attrs}></li>'
             if any(k in low for k in ("deviations", "waivers", "comments")):
-                return "no-bullets", f'<li><strong>{html.escape(clean)}:</strong><br><textarea rows="3" {attrs}></textarea></li>'
-            return "no-bullets", f'<li><strong>{html.escape(clean)}:</strong> <input type="text" {attrs}></li>'
+                return "no-bullets", f'<li><strong>{html.escape(clean)}:</strong><br><textarea rows="3" {attrs}></textarea><span class="print-value multiline"></span></li>'
+            return "no-bullets", f'<li><strong>{html.escape(clean)}:</strong> <input type="text" {attrs}><span class="print-value"></span></li>'
         return "", f"<li>{render_inline(rest)}</li>"
 
     idx = 0
@@ -254,7 +297,7 @@ def convert_markdown(md_text: str) -> tuple[str, str]:
                         suf_h = f" {render_inline(suf)}" if suf else ""
                         tds.append(f'<td><label>{pre_h}<input type="checkbox"{chk} data-csv-role="checkbox" data-csv-header="{html.escape(csv_h, True)}" data-checked-value="{t_val}" data-unchecked-value="{f_val}" data-csv-order="{ord_v}">{suf_h}</label></td>')
                     elif not raw and any(k in col_h.lower() for k in FILLABLE_COLS):
-                        tds.append('<td><input type="text"></td>')
+                        tds.append('<td><input type="text"><span class="print-value"></span></td>')
                     else:
                         tds.append(f"<td>{render_inline(raw)}</td>")
                 tbl.append("<tr>" + "".join(tds) + "</tr>")
